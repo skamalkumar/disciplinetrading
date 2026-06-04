@@ -17,7 +17,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg text-[#c9a84c] mb-3">Discipline Trading</h3>
             <p className="text-sm text-[#b0a898] leading-relaxed">
-              Expert options trading education by Kamal Kumar. M.Sc. Finance and Investment, ex-Lloyds Bank London.
+              Expert futures and options education by S. Kamal Kumar. M.Sc. Finance and Investment, ex-Lloyds Bank London.
             </p>
           </div>
 
@@ -40,7 +40,7 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold uppercase tracking-widest text-[#c9a84c] mb-3">Also in Telugu</h4>
             <p className="text-sm text-[#b0a898] mb-3">
-              Watch options trading tutorials in Telugu on Finworld Telugu YouTube channel.
+              Watch futures and options tutorials in Telugu on Finworld Telugu YouTube channel.
             </p>
             <a
               href="https://www.youtube.com/@FinworldTelugu"

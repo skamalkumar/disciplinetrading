@@ -12,20 +12,25 @@ export default function HomePage() {
     <div className="bg-[#0a0a0a]">
       <section className="min-h-screen flex items-center relative overflow-hidden pt-16">
         <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] via-[#111] to-[#0a0a0a]" />
+
         <div className="relative max-w-6xl mx-auto px-6 py-20">
-          <div className="max-w-3xl">
+          <div className="max-w-5xl">
             <p className="text-[#c9a84c] text-sm font-semibold uppercase tracking-widest mb-6">
-              Options Trading Education
+              Futures And Options Education
             </p>
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6">
-              Trade With <span className="text-[#c9a84c]">Discipline.</span>
+
+            <h1 className="text-5xl md:text-7xl font-bold leading-tight mb-6 text-white">
+              Trade With{" "}
+              <span className="text-[#c9a84c]">Discipline.</span>
               <br />
-              Profit With <span className="text-[#c9a84c]">Knowledge.</span>
+              Profit With{" "}
+              <span className="text-[#c9a84c]">Knowledge.</span>
             </h1>
+
             <p className="text-lg text-[#b0a898] leading-relaxed mb-10 max-w-2xl">
-              Learn Nifty and BankNifty options strategies from Kamal Kumar.
-              M.Sc. Finance and Investment, ex-Lloyds Bank London, with 15 years of market experience.
+              Learn Nifty and Sensex futures and options from S. Kamal Kumar, M.Sc., Finance and Investment, former Lloyds Banking Group London professional, with 15+ years of experience in financial markets, equities, and derivatives.
             </p>
+
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/blog"
@@ -33,6 +38,7 @@ export default function HomePage() {
               >
                 Read Articles
               </Link>
+
               <a
                 href="https://www.youtube.com/@FinworldTelugu"
                 target="_blank"
@@ -51,8 +57,12 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {credentials.map((item) => (
               <div key={item.label}>
-                <div className="text-3xl font-bold text-[#c9a84c] mb-1">{item.value}</div>
-                <div className="text-sm text-[#b0a898] uppercase tracking-wide">{item.label}</div>
+                <div className="text-3xl font-bold text-[#c9a84c] mb-1">
+                  {item.value}
+                </div>
+                <div className="text-sm text-[#b0a898] uppercase tracking-wide">
+                  {item.label}
+                </div>
               </div>
             ))}
           </div>
@@ -61,10 +71,15 @@ export default function HomePage() {
 
       <section className="py-20 bg-[#111111] border-t border-[#c9a84c]/20">
         <div className="max-w-3xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-4">Learn in Telugu</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">
+            Learn in Telugu
+          </h2>
+
           <p className="text-[#b0a898] mb-8">
-            Watch free options trading tutorials in Telugu on our Finworld Telugu YouTube channel.
+            Watch free futures and options tutorials in Telugu on our Finworld
+            Telugu YouTube channel.
           </p>
+
           <a
             href="https://www.youtube.com/@FinworldTelugu"
             target="_blank"
@@ -78,8 +93,9 @@ export default function HomePage() {
 
       <div className="bg-[#0a0a0a] py-4 px-6 text-center border-t border-[#c9a84c]/20">
         <p className="text-xs text-[#b0a898]">
-          All content is for educational purposes only and does not constitute financial advice.
-          Please consult a SEBI registered investment advisor before making any investment decisions.
+          All content is for educational purposes only and does not constitute
+          financial advice. Please consult a SEBI registered investment advisor
+          before making any investment decisions.
         </p>
       </div>
     </div>
