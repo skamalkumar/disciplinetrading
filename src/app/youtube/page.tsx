@@ -4,7 +4,7 @@ import { getYoutubeVideos } from "@/lib/youtube";
 export const metadata = {
   title: "Finworld Telugu YouTube Channel | Discipline Trading",
   description:
-    "Learn Nifty and Sensex options trading in Telugu with Kamal Kumar. Free tutorials on options trading, risk management, market psychology, and weekly market analysis.",
+    "Learn Nifty and Sensex options trading in Telugu with S. Kamal Kumar. Free tutorials on options trading, risk management, market psychology, and weekly market analysis.",
 };
 
 export default async function YoutubePage() {
