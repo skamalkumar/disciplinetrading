@@ -1,0 +1,529 @@
+const courseModules = [
+  {
+    number: "01",
+    title: "Options Trading Fundamentals",
+    level: "Beginner",
+    lessons: 4,
+    description:
+      "Build a strong foundation in options trading and understand the essential concepts every beginner should know.",
+    videos: [
+      {
+        number: "01",
+        title: "What Are Options?",
+        videoId: "h4hTwffA6Kk",
+      },
+      {
+        number: "02",
+        title: "Call vs Put",
+        videoId: "kg0QgiNWCAg",
+      },
+      {
+        number: "03",
+        title: "Understanding Option Prices",
+        videoId: "l_XyyL5aVcc",
+      },
+      {
+        number: "04",
+        title: "Why Traders Lose in Options",
+        videoId: "J_VT1bfp_Rc",
+      },
+    ],
+  },
+
+  {
+  number: "02",
+  title: "Understanding Options",
+  level: "Beginner",
+  lessons: 4,
+  description:
+    "Understand the mechanics of options, premiums, moneyness, and the factors that influence option prices.",
+  videos: [
+    {
+      number: "01",
+      title: "Module 2 - Lesson 1",
+      videoId: "Abx176mfHNE",
+    },
+    {
+      number: "02",
+      title: "Module 2 - Lesson 2",
+      videoId: "4y7mLVIt1f0",
+    },
+    {
+      number: "03",
+      title: "Module 2 - Lesson 3",
+      videoId: "tWRYqJi3tTA",
+    },
+    {
+      number: "04",
+      title: "Module 2 - Lesson 4",
+      videoId: "sDYJldRPwyM",
+    },
+  ],
+},
+
+  {
+  number: "03",
+  title: "Options Trading Basics",
+  level: "Beginner",
+  lessons: 3,
+  description:
+    "Build practical knowledge of basic options trading concepts before progressing to advanced analysis.",
+  videos: [
+    {
+      number: "01",
+      title: "Module 3 - Lesson 1",
+      videoId: "v-XqfuS6rAk",
+    },
+    {
+      number: "02",
+      title: "Module 3 - Lesson 2",
+      videoId: "RFLMGpCdByg",
+    },
+    {
+      number: "03",
+      title: "Module 3 - Lesson 3",
+      videoId: "neqjDr73MCY",
+    },
+  ],
+},
+
+  {
+  number: "04",
+  title: "Option Greeks",
+  level: "Intermediate",
+  lessons: 5,
+  description:
+    "Learn how Delta, Gamma, Theta, Vega, and other option Greeks influence option prices and trading decisions.",
+  videos: [
+    {
+      number: "01",
+      title: "Module 4 - Lesson 1",
+      videoId: "7YVSGbZpO1k",
+    },
+    {
+      number: "02",
+      title: "Module 4 - Lesson 2",
+      videoId: "BnC9dWJKS2o",
+    },
+    {
+      number: "03",
+      title: "Module 4 - Lesson 3",
+      videoId: "DuMzT72VmCc",
+    },
+    {
+      number: "04",
+      title: "Module 4 - Lesson 4",
+      videoId: "5zB6xtFu0NU",
+    },
+    {
+      number: "05",
+      title: "Module 4 - Lesson 5",
+      videoId: "KX7XN4r7gZA",
+    },
+  ],
+},
+
+  {
+  number: "05",
+  title: "Implied Volatility",
+  level: "Intermediate",
+  lessons: 9,
+  description:
+    "Understand implied volatility, historical volatility, IV crush, IV rank, IV percentile, and how volatility influences option premiums.",
+  videos: [
+    {
+      number: "01",
+      title: "Module 5 - Lesson 1",
+      videoId: "wMGqigQ5YX8",
+    },
+    {
+      number: "02",
+      title: "Module 5 - Lesson 2",
+      videoId: "iFkN26piB4I",
+    },
+    {
+      number: "03",
+      title: "Module 5 - Lesson 3",
+      videoId: "TmWFxtJW0Ds",
+    },
+    {
+      number: "04",
+      title: "Module 5 - Lesson 4",
+      videoId: "BkTMPN-oSAE",
+    },
+    {
+      number: "05",
+      title: "Module 5 - Lesson 5",
+      videoId: "d_fmKQ-KbyM",
+    },
+    {
+      number: "06",
+      title: "Module 5 - Lesson 6",
+      videoId: "xZjv-ptV-rE",
+    },
+    {
+      number: "07",
+      title: "Module 5 - Lesson 7",
+      videoId: "pDxRDNTd32Q",
+    },
+    {
+      number: "08",
+      title: "Module 5 - Lesson 8",
+      videoId: "C-QaGoN_PyU",
+    },
+    {
+      number: "09",
+      title: "Module 5 - Lesson 9",
+      videoId: "oSo10fK1cZ4",
+    },
+  ],
+},
+
+  {
+  number: "06",
+  title: "Option Chain & Open Interest",
+  level: "Intermediate",
+  lessons: 13,
+  description:
+    "Learn to read the option chain and interpret volume, open interest, OI changes, buildup, unwinding, and market positioning.",
+  videos: [
+    {
+      number: "01",
+      title: "Module 6 - Lesson 1",
+      videoId: "XPYAOi-An9U",
+    },
+    {
+      number: "02",
+      title: "Module 6 - Lesson 2",
+      videoId: "93DFxjlGnuM",
+    },
+    {
+      number: "03",
+      title: "Module 6 - Lesson 3",
+      videoId: "ZBM8kzbJ4dA",
+    },
+    {
+      number: "04",
+      title: "Module 6 - Lesson 4",
+      videoId: "eRoedOLB7ag",
+    },
+    {
+      number: "05",
+      title: "Module 6 - Lesson 5",
+      videoId: "rH_Ko8yB_7A",
+    },
+    {
+      number: "06",
+      title: "Module 6 - Lesson 6",
+      videoId: "9k8XBIJHOkU",
+    },
+    {
+      number: "07",
+      title: "Module 6 - Lesson 7",
+      videoId: "57W27r3F_Os",
+    },
+    {
+      number: "08",
+      title: "Module 6 - Lesson 8",
+      videoId: "dU57ch1VAC4",
+    },
+    {
+      number: "09",
+      title: "Module 6 - Lesson 9",
+      videoId: "IlnVUFV2HkM",
+    },
+    {
+      number: "10",
+      title: "Module 6 - Lesson 10",
+      videoId: "YcanrXaKHto",
+    },
+    {
+      number: "11",
+      title: "Module 6 - Lesson 11",
+      videoId: "IcYHOlyISns",
+    },
+    {
+      number: "12",
+      title: "Module 6 - Lesson 12",
+      videoId: "ZBM8kzbJ4dA",
+    },
+    {
+      number: "13",
+      title: "Module 6 - Lesson 13",
+      videoId: "R8yKQnif7u8",
+    },
+  ],
+},
+
+  {
+  number: "07",
+  title: "Market Structure & Expiry Analysis",
+  level: "Advanced",
+  lessons: 13,
+  description:
+    "Analyse support, resistance, PCR, Max Pain, OI shifts, fresh writing, buying, and expiry dynamics.",
+  videos: [
+    {
+      number: "01",
+      title: "Module 7 - Lesson 1",
+      videoId: "sNAdoH6Crkc",
+    },
+    {
+      number: "02",
+      title: "Module 7 - Lesson 2",
+      videoId: "CpknPd4LHjs",
+    },
+    {
+      number: "03",
+      title: "Module 7 - Lesson 3",
+      videoId: "BbFhBGTGchc",
+    },
+    {
+      number: "04",
+      title: "Module 7 - Lesson 4",
+      videoId: "vL1244Fl4II",
+    },
+    {
+      number: "05",
+      title: "Module 7 - Lesson 5",
+      videoId: "PWkRlMpipFU",
+    },
+    {
+      number: "06",
+      title: "Module 7 - Lesson 6",
+      videoId: "VuGFPBqE3no",
+    },
+    {
+      number: "07",
+      title: "Module 7 - Lesson 7",
+      videoId: "5admEdogKVA",
+    },
+    {
+      number: "08",
+      title: "Module 7 - Lesson 8",
+      videoId: "M1kYhQhI5LI",
+    },
+    {
+      number: "09",
+      title: "Module 7 - Lesson 9",
+      videoId: "ud_NxxUA_Rw",
+    },
+    {
+      number: "10",
+      title: "Module 7 - Lesson 10",
+      videoId: "g_-w8o2Q7FY",
+    },
+    {
+      number: "11",
+      title: "Module 7 - Lesson 11",
+      videoId: "YVAv6sKmTn0",
+    },
+    {
+      number: "12",
+      title: "Module 7 - Lesson 12",
+      videoId: "NiP0dNu4h8o",
+    },
+    {
+      number: "13",
+      title: "Module 7 - Lesson 13",
+      videoId: "KUBKgD2K_5g",
+    },
+  ],
+},
+
+  {
+  number: "08",
+  title: "Advanced Options & Market Direction",
+  level: "Advanced",
+  lessons: 5,
+  description:
+    "Bring option-chain information and market indicators together to understand potential market direction.",
+  videos: [
+    {
+      number: "01",
+      title: "Module 8 - Lesson 1",
+      videoId: "ZIx85iz_9wQ",
+    },
+    {
+      number: "02",
+      title: "Module 8 - Lesson 2",
+      videoId: "vhQ5sqBrJFA",
+    },
+    {
+      number: "03",
+      title: "Module 8 - Lesson 3",
+      videoId: "rrBtLHlx-rQ",
+    },
+    {
+      number: "04",
+      title: "Module 8 - Lesson 4",
+      videoId: "hC4DiWmzMbU",
+    },
+    {
+      number: "05",
+      title: "Module 8 - Lesson 5",
+      videoId: "p2flfP_-7gI",
+    },
+  ],
+},
+];
+
+export default function CourseModules() {
+  return (
+    <div className="space-y-5">
+      {courseModules.map((module) => (
+        <details
+          key={module.number}
+          className="group border border-[#c9a84c]/20 bg-[#111] open:border-[#c9a84c]/50 transition-colors duration-300"
+        >
+          <summary className="list-none cursor-pointer p-7 md:p-8">
+            <div className="flex items-start gap-5">
+
+              {/* Module Number */}
+              <div className="hidden sm:block shrink-0">
+                <span className="text-4xl md:text-5xl font-bold text-[#c9a84c]/35 group-open:text-[#c9a84c]/70 transition-colors">
+                  {module.number}
+                </span>
+              </div>
+
+              {/* Main Content */}
+              <div className="flex-1 min-w-0">
+
+                <div className="flex flex-wrap items-center gap-3 mb-4">
+
+                  <span className="sm:hidden text-2xl font-bold text-[#c9a84c]/60">
+                    {module.number}
+                  </span>
+
+                  <span
+                    className={`text-xs font-semibold uppercase tracking-widest px-3 py-2 border ${
+                      module.level === "Beginner"
+                        ? "border-[#c9a84c]/20 text-[#b0a898]"
+                        : module.level === "Intermediate"
+                        ? "border-[#c9a84c]/40 text-[#c9a84c]"
+                        : "border-[#c9a84c]/60 text-[#e8c97a]"
+                    }`}
+                  >
+                    {module.level}
+                  </span>
+
+                </div>
+
+                <h3 className="text-2xl md:text-3xl font-bold mb-3 group-hover:text-[#c9a84c] group-open:text-[#c9a84c] transition-colors">
+                  {module.title}
+                </h3>
+
+                <p className="text-[#b0a898] leading-relaxed max-w-3xl">
+                  {module.description}
+                </p>
+
+                <div className="flex items-center justify-between mt-6 pt-5 border-t border-white/10">
+
+                  <span className="text-sm text-[#b0a898]">
+                    {module.lessons} Lessons
+                  </span>
+
+                  <span className="flex items-center gap-3 text-sm font-semibold text-[#c9a84c] uppercase tracking-wider">
+                    Module {module.number}
+
+                    <span className="text-lg transition-transform duration-300 group-open:rotate-180">
+                      ↓
+                    </span>
+                  </span>
+
+                </div>
+
+              </div>
+
+            </div>
+          </summary>
+
+
+          {/* Lessons */}
+          {module.videos.length > 0 && (
+            <div className="px-7 pb-8 md:px-8 md:pb-10">
+
+              <div className="border-t border-[#c9a84c]/20 pt-8">
+
+                <p className="text-[#c9a84c] text-xs font-semibold uppercase tracking-[0.25em] mb-6">
+                  Module {module.number} Lessons
+                </p>
+
+                <div className="grid md:grid-cols-2 gap-5">
+
+                  {module.videos.map((video) => (
+                    <a
+                      key={video.videoId}
+                      href={`https://www.youtube.com/shorts/${video.videoId}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group/lesson block border border-white/10 bg-[#0a0a0a] overflow-hidden hover:border-[#c9a84c]/50 transition-all duration-300"
+                    >
+
+                      {/* Thumbnail */}
+                      <div className="relative aspect-video overflow-hidden bg-black">
+
+                        <img
+                          src={`https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg`}
+                          alt={`${video.title} - Options Trading Fundamentals`}
+                          loading="lazy"
+                          className="w-full h-full object-cover group-hover/lesson:scale-105 transition-transform duration-300"
+                        />
+
+                        {/* Play Indicator */}
+                        <div className="absolute inset-0 flex items-center justify-center bg-black/10 group-hover/lesson:bg-black/30 transition-colors">
+
+                          <div className="w-12 h-12 rounded-full bg-[#c9a84c] flex items-center justify-center">
+                            <span className="text-[#0a0a0a] text-lg ml-1">
+                              ▶
+                            </span>
+                          </div>
+
+                        </div>
+
+                        {/* Lesson Number */}
+                        <div className="absolute top-3 left-3 bg-[#0a0a0a]/90 border border-[#c9a84c]/40 px-3 py-2">
+                          <span className="text-[#c9a84c] text-xs font-bold uppercase tracking-wider">
+                            Lesson {video.number}
+                          </span>
+                        </div>
+
+                      </div>
+
+
+                      {/* Lesson Information */}
+                      <div className="p-5">
+
+                        <h4 className="text-lg font-semibold text-white group-hover/lesson:text-[#c9a84c] transition-colors mb-4">
+                          {video.title}
+                        </h4>
+
+                        <div className="flex items-center justify-between">
+
+                          <span className="text-sm text-[#b0a898]">
+                            Telugu • YouTube Short
+                          </span>
+
+                          <span className="text-[#c9a84c] text-sm font-bold uppercase tracking-wider">
+                            Watch →
+                          </span>
+
+                        </div>
+
+                      </div>
+
+                    </a>
+                  ))}
+
+                </div>
+
+              </div>
+
+            </div>
+          )}
+
+        </details>
+      ))}
+    </div>
+  );
+}
