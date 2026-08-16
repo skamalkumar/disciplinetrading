@@ -200,7 +200,7 @@ const courseModules = [
     {
       number: "03",
       title: "Module 6 - Lesson 3",
-      videoId: "ZBM8kzbJ4dA",
+      videoId: "9aaGrgldYMg",
     },
     {
       number: "04",
