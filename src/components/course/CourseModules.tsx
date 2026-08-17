@@ -71,17 +71,17 @@ const courseModules = [
   videos: [
     {
       number: "01",
-      title: "Module 3 - Lesson 1",
+      title: "Why Do OTM Options Move Slowly?",
       videoId: "v-XqfuS6rAk",
     },
     {
       number: "02",
-      title: "Module 3 - Lesson 2",
+      title: "Why Do ITM Options Move Faster?",
       videoId: "RFLMGpCdByg",
     },
     {
       number: "03",
-      title: "Module 3 - Lesson 3",
+      title: "ITM, ATM & OTM Options: A Beginner's Guide",
       videoId: "neqjDr73MCY",
     },
   ],
@@ -95,32 +95,32 @@ const courseModules = [
   description:
     "Learn how Delta, Gamma, Theta, Vega, and other option Greeks influence option prices and trading decisions.",
   videos: [
-    {
-      number: "01",
-      title: "Module 4 - Lesson 1",
-      videoId: "7YVSGbZpO1k",
-    },
-    {
-      number: "02",
-      title: "Module 4 - Lesson 2",
-      videoId: "BnC9dWJKS2o",
-    },
-    {
-      number: "03",
-      title: "Module 4 - Lesson 3",
-      videoId: "DuMzT72VmCc",
-    },
-    {
-      number: "04",
-      title: "Module 4 - Lesson 4",
-      videoId: "5zB6xtFu0NU",
-    },
-    {
-      number: "05",
-      title: "Module 4 - Lesson 5",
-      videoId: "KX7XN4r7gZA",
-    },
-  ],
+  {
+    number: "01",
+    title: "Understanding Option Greeks",
+    videoId: "7YVSGbZpO1k",
+  },
+  {
+    number: "02",
+    title: "Delta: Measuring Option Price Sensitivity",
+    videoId: "BnC9dWJKS2o",
+  },
+  {
+    number: "03",
+    title: "Gamma: Understanding Delta Changes",
+    videoId: "DuMzT72VmCc",
+  },
+  {
+    number: "04",
+    title: "Theta: Understanding Time Decay",
+    videoId: "5zB6xtFu0NU",
+  },
+  {
+    number: "05",
+    title: "Vega: How Volatility Affects Options",
+    videoId: "KX7XN4r7gZA",
+  },
+],
 },
 
   {
@@ -131,52 +131,52 @@ const courseModules = [
   description:
     "Understand implied volatility, historical volatility, IV crush, IV rank, IV percentile, and how volatility influences option premiums.",
   videos: [
-    {
-      number: "01",
-      title: "Module 5 - Lesson 1",
-      videoId: "wMGqigQ5YX8",
-    },
-    {
-      number: "02",
-      title: "Module 5 - Lesson 2",
-      videoId: "iFkN26piB4I",
-    },
-    {
-      number: "03",
-      title: "Module 5 - Lesson 3",
-      videoId: "TmWFxtJW0Ds",
-    },
-    {
-      number: "04",
-      title: "Module 5 - Lesson 4",
-      videoId: "BkTMPN-oSAE",
-    },
-    {
-      number: "05",
-      title: "Module 5 - Lesson 5",
-      videoId: "d_fmKQ-KbyM",
-    },
-    {
-      number: "06",
-      title: "Module 5 - Lesson 6",
-      videoId: "xZjv-ptV-rE",
-    },
-    {
-      number: "07",
-      title: "Module 5 - Lesson 7",
-      videoId: "pDxRDNTd32Q",
-    },
-    {
-      number: "08",
-      title: "Module 5 - Lesson 8",
-      videoId: "C-QaGoN_PyU",
-    },
-    {
-      number: "09",
-      title: "Module 5 - Lesson 9",
-      videoId: "oSo10fK1cZ4",
-    },
-  ],
+  {
+    number: "01",
+    title: "What Is Implied Volatility?",
+    videoId: "wMGqigQ5YX8",
+  },
+  {
+    number: "02",
+    title: "Historical Volatility vs Implied Volatility",
+    videoId: "iFkN26piB4I",
+  },
+  {
+    number: "03",
+    title: "How to Calculate Historical & Implied Volatility",
+    videoId: "TmWFxtJW0Ds",
+  },
+  {
+    number: "04",
+    title: "Understanding 20% Implied Volatility",
+    videoId: "BkTMPN-oSAE",
+  },
+  {
+    number: "05",
+    title: "IV Crush Explained",
+    videoId: "d_fmKQ-KbyM",
+  },
+  {
+    number: "06",
+    title: "High IV vs Low IV",
+    videoId: "xZjv-ptV-rE",
+  },
+  {
+    number: "07",
+    title: "Which Implied Volatility Should You Use?",
+    videoId: "pDxRDNTd32Q",
+  },
+  {
+    number: "08",
+    title: "IV Rank Explained",
+    videoId: "C-QaGoN_PyU",
+  },
+  {
+    number: "09",
+    title: "IV Percentile Explained",
+    videoId: "oSo10fK1cZ4",
+  },
+],
 },
 
   {
@@ -189,67 +189,67 @@ const courseModules = [
   videos: [
     {
       number: "01",
-      title: "Module 6 - Lesson 1",
+      title: "How to Read an Option Chain",
       videoId: "XPYAOi-An9U",
     },
     {
       number: "02",
-      title: "Module 6 - Lesson 2",
+      title: "Call vs Put: Understanding the Option Chain",
       videoId: "93DFxjlGnuM",
     },
     {
       number: "03",
-      title: "Module 6 - Lesson 3",
+      title: "Understanding ITM, ATM & OTM Options",
       videoId: "9aaGrgldYMg",
     },
     {
       number: "04",
-      title: "Module 6 - Lesson 4",
+      title: "Last Traded Price (LTP) in the Option Chain",
       videoId: "eRoedOLB7ag",
     },
     {
       number: "05",
-      title: "Module 6 - Lesson 5",
+      title: "Volume in Option Chain Analysis",
       videoId: "rH_Ko8yB_7A",
     },
     {
       number: "06",
-      title: "Module 6 - Lesson 6",
+      title: "Open Interest Explained",
       videoId: "9k8XBIJHOkU",
     },
     {
       number: "07",
-      title: "Module 6 - Lesson 7",
+      title: "Open Interest vs Volume",
       videoId: "57W27r3F_Os",
     },
     {
       number: "08",
-      title: "Module 6 - Lesson 8",
+      title: "Understanding OI Change",
       videoId: "dU57ch1VAC4",
     },
     {
       number: "09",
-      title: "Module 6 - Lesson 9",
+      title: "Long Buildup Explained",
       videoId: "IlnVUFV2HkM",
     },
     {
       number: "10",
-      title: "Module 6 - Lesson 10",
+      title: "Short Buildup Explained",
       videoId: "YcanrXaKHto",
     },
     {
       number: "11",
-      title: "Module 6 - Lesson 11",
+      title: "Long Unwinding Explained",
       videoId: "IcYHOlyISns",
     },
     {
       number: "12",
-      title: "Module 6 - Lesson 12",
+      title: "Short Covering Explained",
       videoId: "ZBM8kzbJ4dA",
     },
     {
       number: "13",
-      title: "Module 6 - Lesson 13",
+      title: "Combining the Four OI Signals",
       videoId: "R8yKQnif7u8",
     },
   ],
@@ -265,67 +265,67 @@ const courseModules = [
   videos: [
     {
       number: "01",
-      title: "Module 7 - Lesson 1",
+      title: "Understanding Support Levels",
       videoId: "sNAdoH6Crkc",
     },
     {
       number: "02",
-      title: "Module 7 - Lesson 2",
+      title: "Understanding Resistance Levels",
       videoId: "CpknPd4LHjs",
     },
     {
       number: "03",
-      title: "Module 7 - Lesson 3",
+      title: "Put OI vs Call OI",
       videoId: "BbFhBGTGchc",
     },
     {
       number: "04",
-      title: "Module 7 - Lesson 4",
+      title: "Fresh Call Writing & Put Writing",
       videoId: "vL1244Fl4II",
     },
     {
       number: "05",
-      title: "Module 7 - Lesson 5",
+      title: "Fresh Buying in Options",
       videoId: "PWkRlMpipFU",
     },
     {
       number: "06",
-      title: "Module 7 - Lesson 6",
+      title: "Buying vs Writing: Reading Market Positioning",
       videoId: "VuGFPBqE3no",
     },
     {
       number: "07",
-      title: "Module 7 - Lesson 7",
+      title: "Put-Call Ratio (PCR) Explained",
       videoId: "5admEdogKVA",
     },
     {
       number: "08",
-      title: "Module 7 - Lesson 8",
+      title: "How to Read PCR Values",
       videoId: "M1kYhQhI5LI",
     },
     {
       number: "09",
-      title: "Module 7 - Lesson 9",
+      title: "Max Pain Explained",
       videoId: "ud_NxxUA_Rw",
     },
     {
       number: "10",
-      title: "Module 7 - Lesson 10",
+      title: "How to Calculate Max Pain",
       videoId: "g_-w8o2Q7FY",
     },
     {
       number: "11",
-      title: "Module 7 - Lesson 11",
+      title: "Max Pain and Expiry Analysis",
       videoId: "YVAv6sKmTn0",
     },
     {
       number: "12",
-      title: "Module 7 - Lesson 12",
+      title: "Option Chain Shifts & Market Structure",
       videoId: "NiP0dNu4h8o",
     },
     {
       number: "13",
-      title: "Module 7 - Lesson 13",
+      title: "Combining Option Chain Indicators",
       videoId: "KUBKgD2K_5g",
     },
   ],
@@ -337,31 +337,31 @@ const courseModules = [
   level: "Advanced",
   lessons: 5,
   description:
-    "Bring option-chain information and market indicators together to understand potential market direction.",
+    "Combine price, open interest, option-chain shifts, support, resistance, and breakout signals to analyse potential market direction.",
   videos: [
     {
       number: "01",
-      title: "Module 8 - Lesson 1",
+      title: "Price & Open Interest Analysis",
       videoId: "ZIx85iz_9wQ",
     },
     {
       number: "02",
-      title: "Module 8 - Lesson 2",
+      title: "Call OI vs Put OI: Reading Market Direction",
       videoId: "vhQ5sqBrJFA",
     },
     {
       number: "03",
-      title: "Module 8 - Lesson 3",
+      title: "Put OI as Support",
       videoId: "rrBtLHlx-rQ",
     },
     {
       number: "04",
-      title: "Module 8 - Lesson 4",
+      title: "Option Chain OI Shifts",
       videoId: "hC4DiWmzMbU",
     },
     {
       number: "05",
-      title: "Module 8 - Lesson 5",
+      title: "Resistance Breakout Confirmation",
       videoId: "p2flfP_-7gI",
     },
   ],
