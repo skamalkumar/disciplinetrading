@@ -9,22 +9,22 @@ const courseModules = [
     videos: [
       {
         number: "01",
-        title: "What Are Options?",
+        title: "Why Do 90% of Traders Lose in Options?",
         videoId: "h4hTwffA6Kk",
       },
       {
         number: "02",
-        title: "Call vs Put",
+        title: "Why Is One Option ₹5 and Another ₹150?",
         videoId: "kg0QgiNWCAg",
       },
       {
         number: "03",
-        title: "Understanding Option Prices",
+        title: "3 Key Factors That Determine Option Premium",
         videoId: "l_XyyL5aVcc",
       },
       {
         number: "04",
-        title: "Why Traders Lose in Options",
+        title: "Why Do You Lose Even When Your Market Direction Is Correct?",
         videoId: "J_VT1bfp_Rc",
       },
     ],
