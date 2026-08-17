@@ -9,22 +9,22 @@ const courseModules = [
     videos: [
       {
         number: "01",
-        title: "Why Do 90% of Traders Lose in Options?",
+        title: "What Can ₹500 Control? Understanding Options",
         videoId: "h4hTwffA6Kk",
       },
       {
         number: "02",
-        title: "Why Is One Option ₹5 and Another ₹150?",
+        title: "Can You Profit Without Predicting Market Direction?",
         videoId: "kg0QgiNWCAg",
       },
       {
         number: "03",
-        title: "3 Key Factors That Determine Option Premium",
+        title: "Why Are Some Options Cheap? ITM, ATM & OTM Explained",
         videoId: "l_XyyL5aVcc",
       },
       {
         number: "04",
-        title: "Why Do You Lose Even When Your Market Direction Is Correct?",
+        title: "Why Do 90% of Traders Lose in Options?",
         videoId: "J_VT1bfp_Rc",
       },
     ],
