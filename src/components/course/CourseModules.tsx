@@ -38,27 +38,27 @@ const courseModules = [
   description:
     "Understand the mechanics of options, premiums, moneyness, and the factors that influence option prices.",
   videos: [
-    {
-      number: "01",
-      title: "Module 2 - Lesson 1",
-      videoId: "Abx176mfHNE",
-    },
-    {
-      number: "02",
-      title: "Module 2 - Lesson 2",
-      videoId: "4y7mLVIt1f0",
-    },
-    {
-      number: "03",
-      title: "Module 2 - Lesson 3",
-      videoId: "tWRYqJi3tTA",
-    },
-    {
-      number: "04",
-      title: "Module 2 - Lesson 4",
-      videoId: "sDYJldRPwyM",
-    },
-  ],
+  {
+    number: "01",
+    title: "Why Is One Option ₹5 and Another ₹150?",
+    videoId: "Abx176mfHNE",
+  },
+  {
+    number: "02",
+    title: "3 Key Secrets Every Options Trader Should Know",
+    videoId: "4y7mLVIt1f0",
+  },
+  {
+    number: "03",
+    title: "Why Do You Lose Even When Your Direction Is Correct?",
+    videoId: "tWRYqJi3tTA",
+  },
+  {
+    number: "04",
+    title: "Why Are Some Options Fast and Others Slow? Understanding Delta",
+    videoId: "sDYJldRPwyM",
+  },
+],
 },
 
   {
