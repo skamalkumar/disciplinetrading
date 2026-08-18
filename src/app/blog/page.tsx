@@ -36,7 +36,7 @@ export default function BlogPage() {
                   <span className="text-xs text-[#c9a84c] uppercase tracking-widest mb-3">
                     {post.category}
                   </span>
-                  <h2 className="text-xl font-bold mb-3 group-hover:text-[#c9a84c] transition-colors leading-snug flex-1">
+                  <h2 className="text-xl font-bold text-white mb-3 group-hover:text-[#c9a84c] transition-colors leading-snug flex-1">
                     {post.title}
                   </h2>
                   <p className="text-sm text-[#b0a898] leading-relaxed mb-4">
