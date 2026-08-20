@@ -1,0 +1,345 @@
+---
+title: "What Is an Option Premium? Intrinsic Value and Time Value Explained"
+description: "Learn what an option premium is, how it is calculated, and how intrinsic value, time value, volatility, strike price and expiry influence the price of Call and Put Options."
+date: "2026-08-20"
+category: "Options Basics"
+tags: ["option premium", "intrinsic value", "time value", "options pricing", "theta", "implied volatility", "NIFTY options", "SENSEX options"]
+featured: false
+---
+
+## What Is an Option Premium?
+
+The **option premium** is the price paid by an option buyer to acquire the rights provided by an option contract. The seller or writer receives that premium in exchange for taking on the corresponding obligation.
+
+For a beginner, think of the premium as the **price tag of the option**.
+
+If a NIFTY Call is quoted at ₹120 and a hypothetical contract represents 50 units, the premium outlay would be:
+
+**₹120 × 50 = ₹6,000**
+
+The actual contract lot size must always be checked against the current exchange specification.
+
+SEBI explains that an option buyer pays a premium to acquire the right while the seller receives the premium for taking on the obligation. citeturn0search0turn0search24
+
+## Why Does an Option Have a Premium?
+
+An option has value because it provides a future right.
+
+A Call can become valuable if the underlying rises. A Put can become valuable if the underlying falls. But the option has a limited life.
+
+Several factors influence premium, including:
+
+- Current underlying price
+- Strike price
+- Time remaining
+- Implied volatility
+- Interest rates
+- Expected dividends where relevant
+
+SEBI investor material identifies underlying price, strike price, time to expiry, risk-free rate and volatility among factors affecting option premium. citeturn0search24
+
+## The Two Components of Option Premium
+
+A useful framework is:
+
+**Option Premium = Intrinsic Value + Time Value**
+
+This is one of the most important concepts in options.
+
+## What Is Intrinsic Value?
+
+Intrinsic value is the value an option has based on the difference between the underlying price and strike price when that difference is favorable.
+
+For a Call:
+
+**Intrinsic Value = max(Spot Price − Strike Price, 0)**
+
+For a Put:
+
+**Intrinsic Value = max(Strike Price − Spot Price, 0)**
+
+Only in-the-money options have positive intrinsic value.
+
+## Call Option Intrinsic Value
+
+Suppose NIFTY is at 24,500 and the Call strike is 24,200.
+
+The Call is in the money by:
+
+**24,500 − 24,200 = 300 points**
+
+If the option premium is ₹380:
+
+**Intrinsic Value = ₹300**
+
+**Time Value = ₹380 − ₹300 = ₹80**
+
+## Put Option Intrinsic Value
+
+Suppose NIFTY is at 24,000 and the Put strike is 24,300.
+
+The Put is in the money by:
+
+**24,300 − 24,000 = 300 points**
+
+If the Put premium is ₹370:
+
+**Intrinsic Value = ₹300**
+
+**Time Value = ₹70**
+
+## What Is Time Value?
+
+Time value is the portion of an option's premium above its intrinsic value.
+
+It reflects the value market participants assign to the possibility that the option could become more valuable before expiry.
+
+The more time available for the underlying to make a favorable move, the greater the opportunity for the option to gain intrinsic value.
+
+The Options Industry Council describes time value as premium above intrinsic value and notes that it generally reflects the time available for market conditions to work in the option holder's favor. citeturn0search6
+
+## Why Does Time Value Decline?
+
+An option has a fixed expiry. As expiry approaches, there is less time for the underlying to make a favorable move.
+
+All else equal, this causes time value to decline.
+
+This is commonly known as **time decay** and is associated with **Theta**.
+
+Time decay is especially important for option buyers because an option can lose value simply because time passes.
+
+## What Happens to an Out-of-the-Money Option?
+
+An out-of-the-money option has zero intrinsic value but can still have a premium because there is time for the underlying to move enough to make the option valuable.
+
+For example, if NIFTY is at 24,000 and a 24,500 Call trades at ₹100:
+
+**Intrinsic Value = ₹0**
+
+**Time Value = ₹100**
+
+As expiry approaches while NIFTY remains below the strike, that time value can decline substantially.
+
+## What Happens at Expiry?
+
+At expiry, remaining time value becomes zero.
+
+For a Call:
+
+**Expiry Payoff = max(Spot − Strike, 0)**
+
+For a Put:
+
+**Expiry Payoff = max(Strike − Spot, 0)**
+
+For a long option, net profit also accounts for the premium paid.
+
+**Long Call Net Profit = Expiry Payoff − Premium Paid**
+
+**Long Put Net Profit = Expiry Payoff − Premium Paid**
+
+These simplified formulas exclude transaction costs and other charges.
+
+## Break-Even for a Long Call
+
+For a simple long Call held to expiry:
+
+**Break-Even = Strike Price + Premium Paid**
+
+If strike is 24,200 and premium is ₹100:
+
+**Break-Even = 24,300**
+
+## Break-Even for a Long Put
+
+For a simple long Put held to expiry:
+
+**Break-Even = Strike Price − Premium Paid**
+
+If strike is 24,300 and premium is ₹100:
+
+**Break-Even = 24,200**
+
+## Why Does Premium Change Before Expiry?
+
+The premium changes continuously because the market continuously reassesses the option's expected value.
+
+A change in the underlying can change intrinsic value. A reduction in time remaining can reduce time value. A change in implied volatility can change the amount traders are willing to pay for optionality.
+
+Interest rates and expected dividends can also affect theoretical option values.
+
+Therefore:
+
+**Option premium is dynamic.**
+
+## How Does the Underlying Price Affect Premium?
+
+For a Call, a rise in the underlying generally increases option value, all else equal.
+
+For a Put, a fall in the underlying generally increases option value, all else equal.
+
+But the option does not necessarily move one-for-one with the underlying. This is where Delta becomes important.
+
+## How Does Time to Expiry Affect Premium?
+
+More time generally means more opportunity for the option to become valuable. Therefore, an option with more time remaining can have greater time value than an otherwise similar option with less time remaining.
+
+As expiry approaches, time value generally decays.
+
+## How Does Implied Volatility Affect Premium?
+
+Implied volatility, or IV, represents the volatility expectation embedded in option prices.
+
+When IV rises, option premiums generally increase, all else equal. When IV falls, premiums generally decrease, all else equal.
+
+This is why an option buyer can sometimes be directionally correct and still see the premium fall if volatility drops sharply.
+
+## A Simple NIFTY Example
+
+Suppose NIFTY is trading at 24,000.
+
+A 24,200 Call has:
+
+- Premium: ₹120
+- Strike: 24,200
+- Time to expiry: 10 days
+
+Because the Call is out of the money:
+
+**Intrinsic Value = ₹0**
+
+**Time Value = ₹120**
+
+Now suppose NIFTY rises to 24,400 and the option trades at ₹260.
+
+**Intrinsic Value = 24,400 − 24,200 = ₹200**
+
+**Time Value = ₹260 − ₹200 = ₹60**
+
+The premium therefore contains both immediate intrinsic value and remaining time value.
+
+## A Simple SENSEX Example
+
+Suppose SENSEX is trading at 80,000 and an 80,500 Call trades at ₹250.
+
+Because the Call is out of the money:
+
+**Intrinsic Value = ₹0**
+
+**Time Value = ₹250**
+
+If SENSEX rises to 81,000 and the option premium becomes ₹700:
+
+**Intrinsic Value = 81,000 − 80,500 = ₹500**
+
+**Time Value = ₹700 − ₹500 = ₹200**
+
+## Why Do Different Strikes Have Different Premiums?
+
+Suppose NIFTY is at 24,000 and compare a 23,500 Call, 24,000 Call and 24,500 Call.
+
+The 23,500 Call is in the money, the 24,000 Call is around the money and the 24,500 Call is out of the money.
+
+Their premiums differ because their intrinsic values and probabilities of becoming more valuable differ.
+
+## Why Option Buyers Need to Understand Premium
+
+Many beginners focus only on direction:
+
+**“NIFTY will go up, so I will buy a Call.”**
+
+But the better question is:
+
+**“How much am I paying for that Call, and what must happen before expiry for the position to become profitable?”**
+
+An option buyer is not simply predicting direction. The buyer is paying for a specific payoff profile with a limited time window.
+
+## Why Option Sellers Focus on Premium
+
+An option seller receives premium upfront, but the premium is compensation for accepting the option's obligations and risk.
+
+For a basic short option, potential profit is generally limited to the premium received, while losses can become much larger depending on the strategy.
+
+Premium received should therefore never be treated as free money.
+
+## Premium and the Greeks
+
+Once premium is understood, the next step is learning the Greeks.
+
+### Delta
+
+Delta describes sensitivity of option value to a change in the underlying, under the model's assumptions.
+
+### Gamma
+
+Gamma describes how Delta changes as the underlying moves.
+
+### Theta
+
+Theta describes sensitivity to the passage of time.
+
+### Vega
+
+Vega describes sensitivity to changes in implied volatility.
+
+These concepts help explain why premium can change even when the underlying move seems small.
+
+## Common Beginner Mistakes With Premium
+
+- Looking only at the quoted premium
+- Ignoring contract lot size
+- Ignoring expiry
+- Ignoring implied volatility
+- Assuming direction guarantees profit
+- Confusing premium with profit
+- Taking excessive position size because the premium looks small
+
+## Final Thoughts
+
+Option premium is the price of optionality.
+
+To understand it, separate it into:
+
+**Premium = Intrinsic Value + Time Value**
+
+Then consider what influences each component.
+
+Underlying price affects intrinsic value. Time to expiry affects time value. Implied volatility affects the value traders assign to future uncertainty. Strike price determines the option's relationship with the underlying.
+
+Once you understand premium, concepts such as Theta, Delta, Gamma, Vega and implied volatility become much easier to learn.
+
+## Frequently Asked Questions
+
+### What is an option premium?
+
+Option premium is the price paid by an option buyer to acquire the rights provided by the contract. The seller receives the premium.
+
+### What are the two components of option premium?
+
+The two components are intrinsic value and time value.
+
+**Premium = Intrinsic Value + Time Value**
+
+### Does an out-of-the-money option have intrinsic value?
+
+No. An out-of-the-money option has zero intrinsic value, although it can still have time value and therefore a market premium.
+
+### Why does option premium decrease near expiry?
+
+As expiry approaches, there is less time for the underlying to make a favorable move. Time value generally declines, all else equal.
+
+### Can option premium fall even when NIFTY moves in the expected direction?
+
+Yes. Time decay, implied-volatility changes and other pricing factors can offset the effect of the underlying's movement.
+
+### What is the break-even price of a Call?
+
+For a simple long Call held to expiry: **Strike Price + Premium Paid**.
+
+### What is the break-even price of a Put?
+
+For a simple long Put held to expiry: **Strike Price − Premium Paid**.
+
+## Disclaimer
+
+This article is for educational purposes only and does not constitute financial advice or a recommendation to buy or sell any security or derivative. Options involve significant risk. The examples are simplified for education and exclude transaction costs, taxes and other applicable charges.
