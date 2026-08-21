@@ -1,0 +1,118 @@
+---
+title: "Intrinsic Value and Time Value of an Option: A Complete Beginner's Guide"
+description: "Understand intrinsic value and time value in options, how they affect option premiums, and how NIFTY and SENSEX traders can interpret option prices."
+date: "2026-08-21"
+category: "F&O"
+tags: ["intrinsic value", "time value", "options", "option premium", "nifty", "sensex"]
+featured: false
+---
+
+## What Are Intrinsic Value and Time Value?
+
+An option premium is influenced by several factors, but a useful starting point is to divide the premium into two components: intrinsic value and time value.
+
+Understanding this distinction helps options traders explain why an option can have value even when it is not currently profitable to exercise, and why an option's premium can decline rapidly as expiry approaches.
+
+A simplified relationship is:
+
+**Option Premium = Intrinsic Value + Time Value**
+
+The concept applies to both Call and Put options.
+
+## Intrinsic Value of a Call Option
+
+A Call Option gives the buyer the right to buy the underlying at the strike price. Its intrinsic value is based on how far the underlying market price is above the strike price.
+
+**Call Intrinsic Value = Max(Spot Price − Strike Price, 0)**
+
+For example, suppose NIFTY is at 25,000 and a 24,800 Call is trading in the market. The intrinsic value is:
+
+**25,000 − 24,800 = 200 points**
+
+If the option premium is 260 points, then the remaining 60 points can be viewed as time value in this simplified example.
+
+## Intrinsic Value of a Put Option
+
+A Put Option gives the buyer the right to sell the underlying at the strike price. Its intrinsic value is based on how far the strike is above the underlying market price.
+
+**Put Intrinsic Value = Max(Strike Price − Spot Price, 0)**
+
+Suppose SENSEX is at 82,000 and an 82,500 Put is being analysed.
+
+**82,500 − 82,000 = 500 points**
+
+If the Put premium is 700 points, approximately 200 points represent time value under the simplified framework.
+
+## What Is Time Value?
+
+Time value is the portion of an option premium above its intrinsic value. It represents the value traders place on the possibility that the option may become more valuable before expiry.
+
+An option with more time remaining generally has more opportunity for the underlying to move favourably. This is one reason options with longer expiries can carry greater time value than otherwise comparable short-dated options.
+
+Time value is not guaranteed. It can disappear rapidly, especially as expiry approaches.
+
+## What Happens to Time Value Near Expiry?
+
+As an option approaches expiry, there is less time for the underlying to make a favourable move. Therefore, the time-value component generally declines, all else equal.
+
+This is closely related to **Theta**, the option Greek commonly used to describe the sensitivity of an option's value to the passage of time.
+
+For option buyers, time decay can work against the position. For option sellers, time decay can potentially work in their favour, although option selling carries significant risk and can produce large losses when the underlying moves sharply.
+
+## In-the-Money, At-the-Money and Out-of-the-Money
+
+Intrinsic and time value also help explain the familiar terms ITM, ATM and OTM.
+
+### In-the-Money
+
+An option has intrinsic value when it is in-the-money. A Call is ITM when the underlying is above its strike, while a Put is ITM when the underlying is below its strike.
+
+### At-the-Money
+
+An ATM option has a strike close to the current underlying price. Its intrinsic value is generally close to zero, so most of its premium consists of time value and other pricing influences.
+
+### Out-of-the-Money
+
+An OTM option has no intrinsic value. Its premium therefore consists primarily of time value and other market-driven pricing components.
+
+## Why This Matters for NIFTY and SENSEX Traders
+
+Suppose NIFTY is trading at 25,000 and you compare a 25,000 Call with a 25,500 Call. The 25,000 Call may have intrinsic value if NIFTY is above the strike, while the 25,500 Call may have no intrinsic value.
+
+However, the OTM option can still have a significant premium because there is time remaining for NIFTY to move above 25,500 before expiry.
+
+The same reasoning applies when analysing SENSEX options.
+
+## Intrinsic Value Is Not the Same as Fair Value
+
+One important distinction is that intrinsic value is only a component of the option premium. An option with ₹100 of intrinsic value does not necessarily have a fair premium of ₹100.
+
+Volatility, time to expiry, interest rates, dividends or other carry factors, and market supply and demand can all affect the observed premium.
+
+## A Simple Example
+
+Suppose a NIFTY Call has:
+
+- Strike price: 24,900
+- NIFTY spot: 25,000
+- Option premium: 180 points
+
+The intrinsic value is:
+
+**25,000 − 24,900 = 100 points**
+
+Therefore, under the simplified decomposition:
+
+**Time Value = 180 − 100 = 80 points**
+
+If NIFTY remains around the same level while expiry approaches, that 80-point time-value component can decline substantially.
+
+## Final Thoughts
+
+Breaking an option premium into intrinsic value and time value is one of the most useful foundations for understanding options pricing. It helps traders understand why ITM options have intrinsic value, why OTM options can still have premiums, and why time decay becomes increasingly important near expiry.
+
+For NIFTY and SENSEX options, this framework should be combined with volatility, Greeks, liquidity, and the broader market structure rather than used as a standalone trading signal.
+
+## Disclaimer
+
+This article is for educational purposes only and does not constitute financial advice. Please consult a SEBI registered investment advisor before making any investment decisions.
