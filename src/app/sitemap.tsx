@@ -1,36 +1,50 @@
 import { MetadataRoute } from "next";
+import { getAllPosts } from "@/lib/posts";
+
+const BASE_URL = "https://www.disciplinetrading.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
+  const posts = getAllPosts();
+
+  const staticPages: MetadataRoute.Sitemap = [
     {
-      url: "https://www.disciplinetrading.com",
+      url: BASE_URL,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
     },
     {
-      url: "https://www.disciplinetrading.com/blog",
+      url: `${BASE_URL}/blog`,
       lastModified: new Date(),
-      changeFrequency: "weekly",
+      changeFrequency: "daily",
       priority: 0.9,
     },
     {
-      url: "https://www.disciplinetrading.com/youtube",
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.9,
-    },
-    {
-      url: "https://www.disciplinetrading.com/about",
+      url: `${BASE_URL}/about`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.6,
     },
     {
-      url: "https://www.disciplinetrading.com/contact",
+      url: `${BASE_URL}/contact`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.5,
     },
+    {
+      url: `${BASE_URL}/youtube`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
   ];
+
+  const articlePages: MetadataRoute.Sitemap = posts.map((post) => ({
+    url: `${BASE_URL}/blog/${post.slug}`,
+    lastModified: new Date(post.date),
+    changeFrequency: "monthly",
+    priority: post.featured ? 0.8 : 0.7,
+  }));
+
+  return [...staticPages, ...articlePages];
 }
