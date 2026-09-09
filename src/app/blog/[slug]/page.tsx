@@ -2,6 +2,7 @@ import { getPostBySlug, getAllPosts } from "@/lib/posts";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import React from "react";
+import type { Metadata } from "next";
 
 export async function generateStaticParams() {
   const posts = getAllPosts();
@@ -12,18 +13,28 @@ export async function generateMetadata({
   params,
 }: {
   params: Promise<{ slug: string }>;
-}) {
+}): Promise<Metadata> {
   const { slug } = await params;
   const post = getPostBySlug(slug);
 
   if (!post) return {};
 
   return {
-    title: post.title + " | Discipline Trading",
+    title: post.title,
     description: post.description,
+
+    alternates: {
+      canonical: `https://disciplinetrading.com/blog/${post.slug}`,
+    },
+
+    openGraph: {
+      title: post.title,
+      description: post.description,
+      url: `https://disciplinetrading.com/blog/${post.slug}`,
+      type: "article",
+    },
   };
 }
-
 /* -------------------------------------------------------
    Inline Markdown Renderer
    Supports:
