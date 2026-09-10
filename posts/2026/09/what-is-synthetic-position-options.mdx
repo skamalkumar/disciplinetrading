@@ -1,0 +1,138 @@
+---
+title: "What Is a Synthetic Position in Options? Strategies and Examples"
+description: "Learn how option combinations can replicate long and short underlying exposure, with practical NIFTY examples and risk considerations."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-10"
+tags: ["Synthetic Position", "Options Strategy", "NIFTY Options", "Synthetic Long", "Synthetic Short", "F&O"]
+featured: false
+---
+
+## What Is a Synthetic Position?
+
+A **Synthetic Position** combines options, and sometimes the underlying or futures, to create economic exposure similar to another financial position.
+
+The key idea is:
+
+> Different combinations of derivatives can create similar payoff profiles.
+
+Synthetic positions are closely connected with Put-Call Parity.
+
+Related reading: [What Is Put-Call Parity?](/blog/what-is-put-call-parity)
+
+## Synthetic Long
+
+A common synthetic long is:
+
+**Buy Call + Sell Put**
+
+using the same strike and expiry.
+
+### NIFTY Example
+
+Suppose:
+
+- NIFTY strike = 25,000
+- Buy 25,000 Call
+- Sell 25,000 Put
+- Same expiry
+
+The combination creates directional exposure broadly similar to being long the underlying at the strike, subject to pricing, carry, settlement and contract details.
+
+## Synthetic Short
+
+A common synthetic short is:
+
+**Sell Call + Buy Put**
+
+with the same strike and expiry.
+
+Example:
+
+- Sell 25,000 Call
+- Buy 25,000 Put
+
+This creates exposure broadly similar to a short underlying position.
+
+## Payoff Intuition
+
+For a synthetic long:
+
+If NIFTY rises above the strike, the call gains while the short put loses less or expires worthless depending on the final price.
+
+If NIFTY falls below the strike, the short put creates downside loss.
+
+Therefore, the combined position behaves broadly like long exposure.
+
+## Synthetic Long vs Futures
+
+A synthetic long can resemble a long futures position, but the two structures can differ in:
+
+- Margin
+- Premiums
+- Financing
+- Dividends
+- Liquidity
+- Expiry
+- Settlement
+
+Do not assume the two trades have identical practical costs.
+
+## Why Traders Use Synthetic Positions
+
+Potential uses include:
+
+- Replicating directional exposure
+- Hedging
+- Relative-value analysis
+- Understanding option relationships
+- Comparing options with futures
+
+## Risk
+
+Synthetic does not mean safe.
+
+A synthetic long can have substantial downside exposure.
+
+Before entering, understand:
+
+- Maximum possible loss
+- Margin requirements
+- Premium received/paid
+- Expiry risk
+- Liquidity
+- Gap risk
+
+## Synthetic Positions and Put-Call Parity
+
+Put-Call Parity explains the theoretical relationship between calls, puts, the underlying, strike, interest rates, dividends and expiry.
+
+Synthetic positions provide practical intuition for that relationship.
+
+Related reading: [What Is Put-Call Parity?](/blog/what-is-put-call-parity)
+
+## Frequently Asked Questions
+
+### What is a synthetic long?
+
+A common synthetic long uses a long call and short put with the same strike and expiry.
+
+### What is a synthetic short?
+
+A common synthetic short uses a short call and long put with the same strike and expiry.
+
+### Are synthetic positions risk-free?
+
+No. They can carry significant directional, margin and liquidity risk.
+
+## Final Thoughts
+
+Synthetic positions demonstrate an important options principle:
+
+**Similar economic exposure can sometimes be created in different ways.**
+
+Understanding this helps traders compare options, futures and underlying positions more intelligently.
+
+---
+
+**Disclaimer:** This article is for educational purposes only and does not constitute financial advice. Options involve substantial risk. This article is educational and not financial advice. Consult a SEBI-registered investment adviser before trading derivatives.
