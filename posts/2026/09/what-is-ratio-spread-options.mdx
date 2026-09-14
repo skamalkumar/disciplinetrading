@@ -1,0 +1,230 @@
+---
+title: "What Is a Ratio Spread in Options? Strategy, Payoff and Example"
+description: "Learn how a Ratio Spread works in options, including the structure, payoff, risks, breakeven considerations and a practical NIFTY example."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-14"
+tags: ["ratio spread", "ratio spread options", "NIFTY options", "options strategy", "call ratio spread", "put ratio spread", "options trading", "F&O"]
+featured: false
+---
+
+# What Is a Ratio Spread in Options?
+
+A **Ratio Spread** is an options strategy in which a trader buys one number of options and sells a larger number of options at another strike.
+
+The word **ratio** is the key.
+
+For example:
+
+**Buy 1 Call + Sell 2 Calls**
+
+or
+
+**Buy 1 Put + Sell 2 Puts**
+
+The extra short option changes the risk profile substantially.
+
+## Basic Structure
+
+A common call ratio spread is:
+
+**Buy 1 lower-strike Call**
+
+**Sell 2 higher-strike Calls**
+
+For example, suppose NIFTY is trading near 24,500:
+
+- Buy 1 × 24,500 Call
+- Sell 2 × 24,800 Calls
+
+The exact strikes and premium depend on market conditions.
+
+The position is bullish up to a point, but a very strong rally can create substantial losses.
+
+## Why Use a Ratio?
+
+A standard vertical spread uses a 1:1 ratio.
+
+A ratio spread uses something like **1:2**.
+
+The extra short option can reduce the upfront cost or even produce a net credit.
+
+But it also creates additional tail risk.
+
+**Lower entry cost → potentially higher tail risk**
+
+## Call Ratio Spread Example
+
+Assume:
+
+- Buy 1 × 24,500 CE for ₹180
+- Sell 2 × 24,800 CE for ₹90 each
+
+Net premium:
+
+₹180 − (2 × ₹90) = **₹0**
+
+At expiry:
+
+### NIFTY at 24,300
+
+All calls expire worthless.
+
+P&L ≈ **₹0**
+
+### NIFTY at 24,600
+
+Long 24,500 Call = ₹100 intrinsic value.
+
+Short calls expire worthless.
+
+P&L ≈ **₹100**
+
+### NIFTY at 24,800
+
+Long call = ₹300 intrinsic value.
+
+Short calls = ₹0 intrinsic value.
+
+P&L ≈ **₹300**
+
+### NIFTY at 25,000
+
+Long call = ₹500.
+
+Two short calls = 2 × ₹200 = ₹400.
+
+P&L ≈ **₹100**
+
+### NIFTY at 25,500
+
+Long call = ₹1,000.
+
+Two short calls = 2 × ₹700 = ₹1,400.
+
+P&L ≈ **−₹400**
+
+The position can therefore move from profit into loss if NIFTY rises too far.
+
+## Maximum Profit
+
+For a standard call ratio spread with a 1:2 structure, the maximum profit generally occurs around the short strike at expiry.
+
+The exact result depends on:
+
+- Strikes
+- Number of contracts
+- Net premium
+- Lot size
+
+Always calculate the payoff before entering.
+
+## Risk Beyond the Upper Breakeven
+
+A call ratio spread can have **unlimited upside risk** if the position remains net short calls beyond the upper strike.
+
+That is the major danger.
+
+A "zero-cost" or credit entry does **not** mean the strategy has limited risk.
+
+## Put Ratio Spread
+
+The bearish counterpart can be:
+
+**Buy 1 Put + Sell 2 lower-strike Puts**
+
+For example:
+
+- Buy 1 × 24,500 Put
+- Sell 2 × 24,200 Puts
+
+A large fall can create substantial losses because of the extra short puts.
+
+## Ratio Spread vs Vertical Spread
+
+| Feature | Vertical Spread | Ratio Spread |
+|---|---|---|
+| Typical ratio | 1:1 | 1:2 or similar |
+| Risk | Usually defined | Can be undefined |
+| Entry cost | Debit/credit | Can be cheaper or credit |
+| Tail risk | Limited | Potentially large |
+| Complexity | Moderate | Higher |
+
+A ratio spread should not be treated as simply a cheaper vertical spread.
+
+## Adding a Hedge
+
+One way to manage tail risk is to add an option farther away.
+
+For example, a call ratio spread can be converted into a more defined-risk structure by buying an additional far OTM call.
+
+That changes the payoff and premium, so the entire position must be recalculated.
+
+The principle is:
+
+> **If you sell more options than you buy, understand exactly what happens during an extreme move.**
+
+## Ratio Spread and Implied Volatility
+
+The strategy is sensitive to implied volatility because it contains both long and short options.
+
+The net vega depends on:
+
+- Strikes
+- Expiries
+- Number of contracts
+- Moneyness
+- Time to expiry
+
+Read [What Is Implied Volatility?](/blog/what-is-implied-volatility) and [What Is Vega in Options?](/blog/what-is-vega-in-options).
+
+## Ratio Spread and Time Decay
+
+Because the strategy contains more short options than long options, theta can sometimes favor the position, but the exact result depends on strike selection and volatility.
+
+Never assume the strategy automatically profits from time decay.
+
+## When Does a Ratio Spread Make Sense?
+
+A trader may consider a ratio spread when they have a specific view such as:
+
+- Mildly bullish, but not expecting a large breakout
+- Mildly bearish, but not expecting a crash
+- Expecting price to move toward a target strike
+- Seeking a lower-cost directional structure
+
+## Frequently Asked Questions
+
+### Is a ratio spread a defined-risk strategy?
+
+Not by default. A 1:2 call ratio spread can have substantial or unlimited upside risk unless the extra short exposure is hedged.
+
+### Why use a ratio spread?
+
+The additional short option can reduce the cost or create a credit.
+
+### Is ratio spread suitable for beginners?
+
+It is better understood after learning vertical spreads, option payoff diagrams, Greeks and risk management.
+
+### Can a ratio spread be hedged?
+
+Yes. Adding a further OTM option can cap or reduce tail risk, but it changes the payoff profile and cost.
+
+## Final Thoughts
+
+The attraction of a ratio spread is:
+
+**Lower entry cost or more premium collected.**
+
+But the hidden cost is the additional short option.
+
+Before entering, calculate:
+
+1. Maximum profit
+2. Breakeven points
+3. Maximum loss or tail risk
+4. Margin requirement
+5. Payoff at extreme prices
+
+> **Disclaimer:** Options involve substantial risk and are not suitable for every investor. This article is educational only. NIFTY examples are hypothetical and exclude brokerage, taxes, slippage and margin changes. Do not trade a ratio spread without understanding its full payoff and risk.

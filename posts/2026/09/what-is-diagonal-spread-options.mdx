@@ -1,0 +1,259 @@
+---
+title: "What Is a Diagonal Spread in Options? Strategy, Structure and Example"
+description: "Learn what a Diagonal Spread is, how different strikes and expiries are combined, how it differs from a calendar spread, and what risks traders should understand."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-14"
+tags: ["diagonal spread", "diagonal spread options", "calendar spread", "NIFTY options", "options strategy", "F&O", "theta", "implied volatility"]
+featured: false
+---
+
+# What Is a Diagonal Spread in Options?
+
+A **Diagonal Spread** is an options strategy that combines:
+
+- **Different strike prices**
+- **Different expiry dates**
+
+That makes it different from a vertical spread and a calendar spread.
+
+A vertical spread generally uses different strikes with the same expiry.
+
+A calendar spread uses the same strike with different expiries.
+
+A diagonal spread changes **both strike and expiry**.
+
+## Basic Structure
+
+A common bullish call diagonal spread is:
+
+**Buy a longer-dated Call at a lower strike**
+
+**Sell a shorter-dated Call at a higher strike**
+
+For example, with NIFTY around 24,500:
+
+- Buy 30-day 24,400 Call
+- Sell 7-day 24,700 Call
+
+This is a hypothetical example.
+
+## Why Is It Called a Diagonal Spread?
+
+Imagine an options chain arranged with strikes and expiries.
+
+A calendar spread changes expiry while keeping the strike constant.
+
+A vertical spread changes strike while keeping expiry constant.
+
+A diagonal spread changes **both**.
+
+Hence the name "diagonal."
+
+## Diagonal Spread vs Calendar Spread
+
+| Feature | Calendar Spread | Diagonal Spread |
+|---|---|---|
+| Strikes | Same | Different |
+| Expiries | Different | Different |
+| Directional bias | Often neutral/moderate | Can be directional |
+| Main complexity | Moderate | Higher |
+
+Read [What Is a Calendar Spread in Options?](/blog/what-is-calendar-spread-options).
+
+## Bullish Call Diagonal Example
+
+Suppose NIFTY is at 24,500.
+
+A hypothetical trade:
+
+- Buy 30 DTE 24,400 CE
+- Sell 7 DTE 24,700 CE
+
+Assume:
+
+- Long call premium = ₹260
+- Short call premium = ₹90
+
+Net debit = ₹260 − ₹90 = **₹170**
+
+The short call expires earlier.
+
+This creates an important feature: the trader may be able to manage or replace the short option while continuing to hold the longer-dated option.
+
+## What Happens If NIFTY Rises Moderately?
+
+Suppose NIFTY moves toward 24,700 near the short option's expiry.
+
+The short 24,700 CE may gain value.
+
+But the long 24,400 CE also gains value and has more time remaining.
+
+The exact P&L depends on:
+
+- NIFTY price
+- Remaining time
+- Implied volatility
+- Greeks of both options
+- Premium paid and received
+
+Therefore, evaluate a diagonal spread using a risk graph rather than a simple expiry formula.
+
+## What Happens If NIFTY Falls?
+
+If NIFTY falls significantly, both calls can lose value.
+
+The longer-dated call generally retains more time value than the shorter-dated call, but the position can still lose money.
+
+A decline in implied volatility can also hurt the long option.
+
+## The Role of Time Decay
+
+Diagonal spreads have a more complex theta profile than simple one-expiry spreads.
+
+The short-dated option generally loses time value faster as expiry approaches.
+
+That can benefit the spread when the underlying behaves near the intended zone.
+
+But the longer-dated option also experiences time decay.
+
+Read [What Is Theta / Time Decay in Options?](/blog/what-is-time-decay-in-options).
+
+## Implied Volatility Matters
+
+A diagonal spread has two options that can have different implied volatilities because they belong to different expiries and strikes.
+
+This makes the strategy sensitive to volatility term structure and skew.
+
+Read [What Is Implied Volatility?](/blog/what-is-implied-volatility), [What Is Volatility Term Structure?](/blog/what-is-volatility-term-structure), and [What Is Volatility Skew?](/blog/what-is-volatility-skew-in-options).
+
+## Bullish vs Bearish Diagonal
+
+### Bullish Call Diagonal
+
+**Buy longer-dated lower-strike Call**
+
+**Sell shorter-dated higher-strike Call**
+
+This generally expresses a moderately bullish view.
+
+### Bearish Put Diagonal
+
+**Buy longer-dated higher-strike Put**
+
+**Sell shorter-dated lower-strike Put**
+
+This generally expresses a moderately bearish view.
+
+## What Is the Maximum Profit?
+
+Unlike a simple same-expiry vertical spread, the maximum profit of a diagonal spread is not always captured by one simple expiry formula.
+
+The short option expires first while the long option remains alive.
+
+That means the position can be actively managed after the first expiry.
+
+Possible actions include:
+
+- Close the entire position
+- Close the short option and keep the long option
+- Roll the short option
+- Sell another short-dated option against the long option
+
+Each action creates a new position with a new risk profile.
+
+## Diagonal Spread as a "Poor Man's Covered Call"
+
+A long-term call combined with repeated short calls is sometimes used as a stock-replacement or covered-call-like framework.
+
+However, a diagonal spread is not identical to owning the underlying stock.
+
+Differences include:
+
+- Option expiry
+- Delta changes
+- Exercise/assignment considerations
+- Volatility exposure
+- Gap risk
+- Roll decisions
+
+## Example of Rolling the Short Call
+
+Suppose the initial structure is:
+
+- Buy 30 DTE 24,400 CE
+- Sell 7 DTE 24,700 CE
+
+As the short option approaches expiry, the trader may:
+
+**A. Close both options**
+
+or
+
+**B. Buy back the short 24,700 CE and sell another short-dated Call**
+
+The new strike and expiry change the position.
+
+That is why management rules matter.
+
+## Main Risks
+
+A diagonal spread can face:
+
+1. **Directional risk** — NIFTY moves strongly against the thesis.
+2. **Volatility risk** — implied volatility changes differently across expiries.
+3. **Roll risk** — the next short option may not offer attractive premium.
+4. **Gap risk** — an overnight move can change the payoff rapidly.
+5. **Liquidity risk** — wider bid-ask spreads can increase trading costs.
+6. **Exercise/assignment considerations** — depending on contract style and position.
+
+## When Can a Diagonal Spread Be Useful?
+
+A trader might consider a diagonal spread when expecting:
+
+- A moderate directional move
+- Different time-decay behaviour between expiries
+- The underlying to remain near a target zone initially
+- Opportunities to sell shorter-dated premium against a longer-dated option
+
+It is more complex than a basic debit spread and requires active monitoring.
+
+## Frequently Asked Questions
+
+### Is a diagonal spread the same as a calendar spread?
+
+No. A calendar spread generally uses the same strike with different expiries. A diagonal spread uses different strikes and different expiries.
+
+### Is a diagonal spread bullish?
+
+Not necessarily. Call diagonals are often structured bullishly, while put diagonals can be structured bearishly.
+
+### Can I roll the short option?
+
+Yes, traders often manage the short leg by closing it and selling another option, but every roll creates a new risk/reward profile.
+
+### Is a diagonal spread defined risk?
+
+The initial two-leg debit structure has a limited initial debit at risk if no additional naked positions are created. Subsequent rolling and management can materially change the risk.
+
+## Final Thoughts
+
+A diagonal spread combines two dimensions:
+
+**Strike + Time**
+
+That gives the strategy flexibility, but also makes its behaviour more complex.
+
+Before trading one, understand:
+
+- Both strikes
+- Both expiries
+- Net debit/credit
+- Greeks
+- Volatility exposure
+- What happens at the first expiry
+- Your rule for managing the short option
+
+The goal is not to find the most complicated strategy. The goal is to choose a structure whose risk you can clearly explain before entering it.
+
+> **Disclaimer:** Options involve substantial risk and are not suitable for every investor. This article is for educational purposes only. NIFTY examples are hypothetical and exclude brokerage, taxes, slippage and other costs. Understand the complete payoff and management rules before trading.
