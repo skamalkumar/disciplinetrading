@@ -1,0 +1,188 @@
+---
+title: "What Is a Protective Put? Strategy, Cost, Risk and Example"
+description: "Learn how a Protective Put works, how buying a put can protect an equity position, the cost of insurance, payoff mechanics and a practical example."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-15"
+tags: ["protective put", "protective put strategy", "put option hedge", "NIFTY options", "portfolio hedge", "options strategy", "risk management", "F&O"]
+featured: false
+---
+
+# What Is a Protective Put?
+
+A **Protective Put** is an options hedging strategy in which an investor owns an underlying asset and buys a Put Option to protect against a significant decline.
+
+It is similar to buying insurance.
+
+The investor keeps upside exposure while the put provides downside protection below the selected strike, subject to the premium paid.
+
+## Basic Structure
+
+A protective put consists of:
+
+**Long Stock or ETF + Buy Put Option**
+
+For example, suppose an investor owns an asset and buys a put with a strike below the current price.
+
+## Simple Stock Example
+
+Suppose a stock is trading at ₹1,000.
+
+An investor owns 100 shares and buys a ₹950 Put for ₹25 per share.
+
+Cost of protection:
+
+₹25 × 100 = **₹2,500**
+
+## What Happens If the Stock Rises?
+
+Suppose the stock rises to ₹1,100 at expiry.
+
+Shares gain:
+
+₹100 × 100 = **₹10,000**
+
+The put expires worthless.
+
+Net simplified gain after the put premium:
+
+₹10,000 − ₹2,500 = **₹7,500**
+
+The hedge therefore reduces the upside return by its cost.
+
+## What Happens If the Stock Falls?
+
+Suppose the stock falls to ₹800.
+
+Shares lose:
+
+₹200 × 100 = **₹20,000**
+
+The ₹950 put has ₹150 intrinsic value:
+
+₹150 × 100 = **₹15,000**
+
+The put offsets much of the stock loss.
+
+The remaining simplified loss is:
+
+₹20,000 − ₹15,000 + ₹2,500 premium
+
+= **₹7,500**
+
+## Protective Put as Insurance
+
+The simplest framework is:
+
+**Underlying = Asset**
+
+**Put = Insurance**
+
+The investor pays a premium to reduce downside risk.
+
+A put can expire worthless while still having served its purpose as insurance.
+
+## Maximum Loss
+
+For a simple stock-plus-put position held through expiry, a simplified worst-case loss is:
+
+**Maximum Loss ≈ Purchase Price − Put Strike + Put Premium**
+
+per share, assuming the underlying can fall to zero and the put is exercisable/settled according to its contract terms.
+
+## Example With NIFTY
+
+Suppose NIFTY is at 24,500.
+
+An investor has long NIFTY exposure and buys a hypothetical 24,000 Put for ₹120.
+
+The put creates protection below 24,000.
+
+If NIFTY falls sharply, the put gains value as NIFTY moves below the strike.
+
+But the investor has paid ₹120 for that protection.
+
+## Protective Put vs Stop Loss
+
+A stop loss and protective put are different tools.
+
+**Stop Loss:** Attempts to exit the underlying after a trigger.
+
+**Protective Put:** Keeps the underlying while the put provides option-based protection.
+
+A gap-down move can cause a stop-loss execution at a worse price than expected.
+
+An option hedge behaves differently because the put remains part of the position.
+
+## Protective Put vs Covered Call
+
+A protective put is purchased for downside protection.
+
+A covered call involves owning the underlying and selling a call for premium income.
+
+| Feature | Protective Put | Covered Call |
+|---|---|---|
+| Underlying | Owned | Owned |
+| Option | Buy Put | Sell Call |
+| Main objective | Downside protection | Premium income |
+| Upside | Retained, less premium cost | Capped above call strike |
+| Premium | Paid | Received |
+
+The two can also be combined into a collar.
+
+## Cost of Protection
+
+The main disadvantage is recurring premium.
+
+If protection is purchased every month, the premium can become a meaningful drag on long-term returns.
+
+Ask:
+
+- How much downside am I protecting?
+- For how long?
+- What is the cost?
+- Is the hedge necessary?
+
+## When Can It Make Sense?
+
+An investor might consider a protective put when:
+
+- Holding a large equity position
+- Wanting temporary downside protection
+- Facing event risk
+- Wanting to remain invested while reducing tail risk
+- Having a specific level below which losses become unacceptable
+
+## Frequently Asked Questions
+
+### Is a protective put free?
+
+No. The investor pays the put premium.
+
+### Does it eliminate all losses?
+
+No. Protection depends on strike, premium, expiry and position size.
+
+### What if the market never falls?
+
+The put can expire worthless, making the premium a cost of insurance.
+
+### Can ETFs be hedged this way?
+
+Conceptually yes, where a suitable liquid put option exists. The hedge may not perfectly match the ETF or portfolio exposure.
+
+## Final Thoughts
+
+A protective put changes the objective from:
+
+**"I want maximum upside."**
+
+to:
+
+**"I want to stay invested, but I also want downside protection."**
+
+The trade-off is the premium.
+
+Before using one, calculate the protection level, premium cost, expiry and position size.
+
+> **Disclaimer:** Options involve substantial risk and are not suitable for every investor. Examples are hypothetical and simplified. Actual settlement, contract specifications, taxes, slippage and liquidity can materially affect results.

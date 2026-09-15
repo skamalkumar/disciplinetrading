@@ -1,0 +1,181 @@
+---
+title: "What Is a Bull Call Spread? Strategy, Payoff, Risk and Example"
+description: "Learn how a Bull Call Spread works, how to calculate maximum profit and loss, and how a practical NIFTY example explains the payoff."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-15"
+tags: ["bull call spread", "bull call spread strategy", "NIFTY options", "debit spread", "options strategy", "F&O", "maximum profit", "maximum loss"]
+featured: false
+---
+
+# What Is a Bull Call Spread?
+
+A **Bull Call Spread** is a defined-risk bullish options strategy.
+
+It uses:
+
+**Buy 1 lower-strike Call + Sell 1 higher-strike Call**
+
+Both options normally have the same expiry.
+
+The trader pays a **net debit** and expects the underlying to rise moderately.
+
+## Basic Structure
+
+Suppose NIFTY is trading near 24,500.
+
+A hypothetical spread:
+
+- Buy 24,500 CE
+- Sell 24,800 CE
+- Same expiry
+
+Assume:
+
+- Buy 24,500 CE = ₹180
+- Sell 24,800 CE = ₹80
+
+Net debit:
+
+₹180 − ₹80 = **₹100**
+
+## Maximum Loss
+
+For a standard debit bull call spread, maximum loss is generally limited to the net premium paid.
+
+Here:
+
+**Maximum Loss = ₹100 per point**
+
+before transaction costs and lot-size multiplication.
+
+If NIFTY finishes at or below 24,500 at expiry, both calls expire worthless and the spread loses approximately the ₹100 debit.
+
+## Maximum Profit
+
+Strike difference:
+
+24,800 − 24,500 = **300 points**
+
+Maximum profit:
+
+300 − 100 = **₹200 per point**
+
+before costs.
+
+## Breakeven
+
+**Breakeven = Lower Strike + Net Debit**
+
+24,500 + ₹100 = **24,600**
+
+At expiry:
+
+- Below 24,600 → loss
+- At 24,600 → approximately breakeven
+- Above 24,600 → profit
+- At or above 24,800 → maximum profit
+
+## Expiry Payoff Table
+
+| NIFTY at Expiry | Approx. P&L |
+|---:|---:|
+| 24,300 | −₹100 |
+| 24,500 | −₹100 |
+| 24,600 | ₹0 |
+| 24,700 | +₹100 |
+| 24,800 | +₹200 |
+| 25,000 | +₹200 |
+
+This is per index point before costs and lot-size multiplication.
+
+## Why Sell the Higher Call?
+
+The short call reduces the cost of buying the lower-strike call.
+
+The trade-off is that profit becomes capped.
+
+**Lower cost + defined risk → capped upside**
+
+## Bull Call Spread vs Buying a Call
+
+| Feature | Long Call | Bull Call Spread |
+|---|---|---|
+| Direction | Bullish | Bullish |
+| Initial cost | Higher | Lower |
+| Maximum loss | Premium paid | Net debit |
+| Upside | Potentially large | Capped |
+| Volatility exposure | Usually higher | Usually lower |
+
+Neither is universally better. The choice depends on the expected magnitude and timing of the move.
+
+## When Can It Be Useful?
+
+A trader might consider it when expecting:
+
+- A bullish move
+- A moderate rather than unlimited rally
+- Defined maximum loss
+- Lower premium outlay than buying a call outright
+
+If NIFTY is 24,500 and the trader expects a move toward 24,800, a spread can align the payoff with that target.
+
+## What If NIFTY Rises Sharply?
+
+Once NIFTY reaches the short strike, the spread approaches its maximum value.
+
+A move from 24,800 to 25,500 does not keep increasing the expiry profit because the short call caps the upside.
+
+## What If NIFTY Falls?
+
+If NIFTY falls below the lower strike, both calls can expire worthless.
+
+The maximum loss remains the initial net debit.
+
+## Greeks
+
+A bull call spread is generally positive delta.
+
+Its gamma, theta and vega depend on the strikes, expiry and market conditions.
+
+Read [What Are Option Greeks?](/blog/what-are-option-greeks), [What Is Delta?](/blog/what-is-option-delta), and [What Is Theta?](/blog/what-is-time-decay-in-options).
+
+## Common Mistakes
+
+1. Entering without calculating maximum loss and profit.
+2. Ignoring expiry and time remaining.
+3. Forgetting brokerage, taxes and slippage.
+4. Choosing strikes without a clear price target.
+5. Assuming the expiry payoff equals the mark-to-market P&L before expiry.
+
+## Frequently Asked Questions
+
+### Is a bull call spread bullish?
+
+Yes. It is normally used for a bullish directional view.
+
+### Is maximum loss unlimited?
+
+No. For the standard debit structure, maximum loss is generally limited to the net debit paid.
+
+### Is maximum profit unlimited?
+
+No. Profit is capped at the strike difference minus the net debit.
+
+### Can I close it before expiry?
+
+Yes. The market value before expiry depends on NIFTY, time, implied volatility and the Greeks.
+
+## Final Thoughts
+
+A bull call spread is a practical way to express a **moderately bullish** view with defined risk.
+
+**Max Loss = Net Debit**
+
+**Max Profit = Strike Difference − Net Debit**
+
+**Breakeven = Lower Strike + Net Debit**
+
+Calculate these before entering any spread.
+
+> **Disclaimer:** Options involve substantial risk and are not suitable for every investor. NIFTY figures are hypothetical and exclude brokerage, taxes, slippage and lot-size effects. This article is educational only.
