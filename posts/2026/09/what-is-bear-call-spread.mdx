@@ -1,0 +1,161 @@
+---
+title: "What Is a Bear Call Spread? Strategy, Payoff, Risk and Example"
+description: "Learn how a bear call spread works, including maximum profit, maximum loss, breakeven and an illustrative NIFTY example."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-16"
+tags: ["Bear Call Spread", "Call Credit Spread", "Options Strategy", "NIFTY Options", "Defined Risk"]
+featured: false
+---
+
+# What Is a Bear Call Spread?
+
+A **bear call spread** is a defined-risk options strategy created by:
+
+1. Selling a lower-strike call.
+2. Buying a higher-strike call.
+
+Both options normally have the same expiry.
+
+The strategy generally benefits when the underlying remains below the short call strike.
+
+## NIFTY Example
+
+Suppose NIFTY is around **24,500**.
+
+A trader creates:
+
+- Sell 24,700 Call for ₹90
+- Buy 24,900 Call for ₹35
+
+Net credit:
+
+**₹90 − ₹35 = ₹55**
+
+For an illustrative 65-unit lot:
+
+**Maximum Profit = ₹55 × 65 = ₹3,575**
+
+## Maximum Loss
+
+Strike difference:
+
+**24,900 − 24,700 = 200 points**
+
+Maximum loss per unit:
+
+**₹200 − ₹55 = ₹145**
+
+Maximum loss:
+
+**₹145 × 65 = ₹9,425**
+
+## Breakeven
+
+**Breakeven = Short Call Strike + Net Credit**
+
+**= 24,700 + 55 = 24,755**
+
+At expiry:
+
+- NIFTY ≤ 24,700 → maximum profit
+- NIFTY = 24,755 → approximately breakeven before costs
+- NIFTY ≥ 24,900 → maximum loss
+
+## Expiry Payoff
+
+| NIFTY Expiry | Approx. P&L per unit |
+|---:|---:|
+| 24,500 | +₹55 |
+| 24,700 | +₹55 |
+| 24,730 | +₹25 |
+| 24,755 | ₹0 |
+| 24,800 | −₹45 |
+| 24,900 | −₹145 |
+
+## Why Use a Bear Call Spread?
+
+It can express a bearish-to-neutral view while collecting a premium credit.
+
+A trader may use it when expecting:
+
+- Resistance to hold
+- Sideways-to-bearish price action
+- NIFTY to remain below a selected level
+
+## Bear Call Spread vs Naked Call
+
+A naked short call can expose the trader to very large losses if the underlying rises sharply.
+
+Buying the higher-strike call caps the loss.
+
+The protection reduces the net premium credit.
+
+## Time Decay and Volatility
+
+A bear call spread is generally a net short-premium structure, so time decay can benefit it when price remains favourable.
+
+But theta is only one factor. Price movement, implied volatility, gamma and liquidity can materially affect the spread.
+
+## Example When NIFTY Rises
+
+If NIFTY expires at 24,800:
+
+- Short 24,700 Call intrinsic value = 100
+- Long 24,900 Call intrinsic value = 0
+- Net loss before credit = 100
+- Credit received = 55
+
+Final loss:
+
+**100 − 55 = 45 points**
+
+For 65 units:
+
+**₹45 × 65 = ₹2,925**
+
+At 24,900 or higher, maximum loss is reached.
+
+## Bull Put Spread vs Bear Call Spread
+
+| Feature | Bull Put Spread | Bear Call Spread |
+|---|---|---|
+| Short option | Put | Call |
+| Long option | Lower-strike put | Higher-strike call |
+| Initial position | Credit | Credit |
+| General view | Bullish to neutral | Bearish to neutral |
+| Maximum profit | Net credit | Net credit |
+| Maximum loss | Defined | Defined |
+| Breakeven | Short put − credit | Short call + credit |
+
+## Key Takeaways
+
+- Bear call spread = sell lower-strike call + buy higher-strike call.
+- It is generally bearish to neutral.
+- Maximum profit is the net credit.
+- Maximum loss is defined by the long call.
+- Breakeven = short call strike + net credit.
+
+## Frequently Asked Questions
+
+### Is a bear call spread the same as a call credit spread?
+The terms are commonly used interchangeably for a vertical call spread opened for a net credit.
+
+### Does NIFTY have to fall?
+No. It can remain flat or rise moderately and still be profitable if it remains below breakeven.
+
+### Why buy the higher-strike call?
+It limits the risk of the short call.
+
+### What is maximum loss?
+**Strike difference − net credit**, multiplied by the applicable contract multiplier.
+
+## Final Thoughts
+
+The bear call spread converts a bearish or resistance-based view into a **defined-risk options structure**.
+
+Calculate maximum profit, maximum loss and breakeven before entering the trade.
+
+Related reading: [What Are Options?](/blog/what-are-options) · [What Is Option Delta?](/blog/what-is-option-delta) · [What Is Implied Volatility?](/blog/what-is-implied-volatility)
+
+> **Disclaimer:** This article is educational only and is not financial advice. Options involve substantial risk. Verify current contract specifications and lot sizes before trading.
