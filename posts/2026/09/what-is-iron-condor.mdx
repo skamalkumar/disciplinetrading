@@ -1,0 +1,178 @@
+---
+title: "What Is an Iron Condor? Strategy, Payoff, Risk and NIFTY Example"
+description: "Learn how an Iron Condor works, its four option legs, maximum profit, maximum loss, breakeven points and a simple NIFTY example."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-19"
+tags: ["iron condor", "NIFTY options", "options strategy", "credit spread", "defined risk", "F&O"]
+featured: false
+---
+
+## What Is an Iron Condor?
+
+An Iron Condor is a four-leg options strategy that combines a bull put spread and a bear call spread.
+
+A standard structure uses:
+
+1. Buy an OTM put
+2. Sell a higher-strike put
+3. Sell an OTM call
+4. Buy a higher-strike call
+
+The long options act as protective wings.
+
+## NIFTY Example
+
+Suppose NIFTY is near **25,000**.
+
+An illustrative Iron Condor could be:
+
+- Buy 24,500 Put
+- Sell 24,700 Put
+- Sell 25,300 Call
+- Buy 25,500 Call
+
+This creates a central profit range between the short strikes.
+
+Actual premiums, lot sizes and contract specifications change, so this is only an educational example.
+
+## How Does It Make Money?
+
+The strategy is normally opened for a net credit.
+
+If NIFTY remains within the central range at expiry, the trader can retain some or all of the initial credit, subject to the final option payoff and transaction costs.
+
+The position is affected by:
+
+- Price movement
+- Time decay
+- Implied volatility
+- Strike selection
+- Wing width
+
+## Maximum Profit
+
+For a standard credit Iron Condor:
+
+**Maximum Profit = Net Premium Received**
+
+This is generally achieved when NIFTY expires between the two short strikes.
+
+## Maximum Loss
+
+For equal-width wings:
+
+**Maximum Loss = Spread Width − Net Premium Received**
+
+Suppose:
+
+- Wing width = 200 points
+- Net credit = 60 points
+
+Then:
+
+**Maximum Loss = 200 − 60 = 140 points**
+
+Rupee P&L depends on the applicable contract lot size and costs.
+
+## Breakeven Points
+
+For a standard structure:
+
+**Lower Breakeven = Short Put Strike − Net Credit**
+
+**Upper Breakeven = Short Call Strike + Net Credit**
+
+With:
+
+- Short Put = 24,700
+- Short Call = 25,300
+- Net credit = 60
+
+The simplified expiry breakevens are:
+
+**24,640 and 25,360**
+
+## Why Use Protective Wings?
+
+The long put and long call cap the losses that could otherwise become much larger with naked short options.
+
+The trade-off is that buying protection reduces the net premium received.
+
+## Iron Condor and Time Decay
+
+Short options generally have positive exposure to time decay when considered from the seller's perspective.
+
+However, theta does not guarantee profit.
+
+A strong NIFTY move can overwhelm the benefit from time decay.
+
+See [What Is Time Decay in Options?](https://disciplinetrading.com/blog/what-is-time-decay-in-options).
+
+## Iron Condor and Implied Volatility
+
+Changes in IV can affect the mark-to-market value of all four legs.
+
+See [What Is Implied Volatility?](https://disciplinetrading.com/blog/what-is-implied-volatility).
+
+## Main Risks
+
+- Directional movement toward or beyond a short strike
+- Rapid volatility changes
+- Event and gap risk
+- Bid-ask spreads and slippage
+- Poorly managed adjustments
+
+Four legs also mean more execution decisions than a single option.
+
+## Iron Condor vs Short Strangle
+
+A short strangle normally sells an OTM put and OTM call without protective long wings.
+
+An Iron Condor adds long options beyond those short strikes.
+
+Therefore:
+
+- Short Strangle: two legs and potentially larger/unlimited directional risk
+- Iron Condor: four legs with defined maximum loss when structured normally
+
+## Practical Checklist
+
+Before considering an Iron Condor, review:
+
+- NIFTY level
+- Short-strike distance
+- Wing width
+- Net credit
+- Maximum loss
+- Breakevens
+- IV
+- Expected events
+- Liquidity
+- Exit and adjustment rules
+
+## Final Thoughts
+
+An Iron Condor combines two credit spreads into a defined-risk options structure.
+
+The key numbers are **net credit, maximum profit, maximum loss, breakevens and distance to the short strikes**.
+
+Understanding the risk is more important than looking only at the probability of profit.
+
+## Frequently Asked Questions
+
+### Is an Iron Condor bullish or bearish?
+
+It is generally associated with a range-bound or neutral market view.
+
+### Is an Iron Condor defined risk?
+
+A standard Iron Condor with protective wings has defined maximum loss.
+
+### Can an Iron Condor be used on NIFTY?
+
+Yes, subject to available contracts, liquidity and current exchange specifications.
+
+## Disclaimer
+
+This article is for educational purposes only and does not constitute financial advice. Options trading involves substantial risk and can result in significant losses. Please consult a SEBI-registered investment adviser before trading.
