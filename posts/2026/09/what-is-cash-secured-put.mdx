@@ -1,0 +1,146 @@
+---
+title: "What Is a Cash-Secured Put? Strategy, Risk and NIFTY Example"
+description: "Learn how a cash-secured put works, its premium, breakeven, downside risk and how it differs from an unhedged short put."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-20"
+tags: ["cash secured put","short put","put selling","NIFTY options","options strategy","F&O"]
+featured: false
+---
+
+## What Is a Cash-Secured Put?
+
+A Cash-Secured Put is a strategy in which a trader sells a put while keeping sufficient capital available for the intended obligation.
+
+The strategy is often associated with a willingness to acquire the underlying at the chosen strike.
+
+For index options such as NIFTY, settlement mechanics are different from physically delivered stock options because the index itself cannot be delivered.
+
+## NIFTY Example
+
+Suppose NIFTY is near **25,000**.
+
+A trader sells a 24,500 Put for an illustrative premium of 100 points.
+
+The trader receives:
+
+**100 points of premium**
+
+If NIFTY expires above 24,500, the put expires out of the money and the premium is retained, before costs.
+
+## Expiry Payoff
+
+For a short put:
+
+**P&L = Premium Received − Max(Strike − Spot, 0)**
+
+Using:
+
+- Strike = 24,500
+- Premium = 100
+
+If NIFTY expires at 24,000:
+
+Intrinsic value = 500
+
+P&L:
+
+**100 − 500 = −400 points**
+
+## Breakeven
+
+**Breakeven = Strike − Premium**
+
+Therefore:
+
+**24,500 − 100 = 24,400**
+
+Below 24,400, the short put loses money at expiry.
+
+## Maximum Profit
+
+Maximum profit is limited to the premium received.
+
+Here:
+
+**100 points**
+
+## Downside Risk
+
+A short put can experience substantial losses if the underlying falls significantly.
+
+For stock options, assignment can result in acquiring shares at the strike under the relevant contract terms.
+
+For NIFTY index options, settlement is cash-based, so the mechanics are different.
+
+## Cash-Secured Put vs Naked Put
+
+The short option can be the same, but the capital arrangement differs.
+
+A cash-secured approach keeps sufficient capital available for the intended obligation.
+
+An insufficiently funded or naked short put can have a different margin and risk-management profile.
+
+## NIFTY Payoff Table
+
+| NIFTY at Expiry | Intrinsic Value | P&L |
+|---:|---:|---:|
+| 25,200 | 0 | +100 |
+| 25,000 | 0 | +100 |
+| 24,500 | 0 | +100 |
+| 24,400 | 100 | 0 |
+| 24,000 | 500 | -400 |
+
+This illustrates how premium provides a buffer but does not eliminate downside risk.
+
+## Implied Volatility
+
+Higher IV can increase option premiums, but it also reflects greater uncertainty in option pricing.
+
+A higher premium should not be treated as risk-free income.
+
+See [What Is Implied Volatility?](https://disciplinetrading.com/blog/what-is-implied-volatility).
+
+## Delta
+
+Delta measures option-price sensitivity and is sometimes used as a rough probability proxy.
+
+It should not be treated as a guaranteed probability of assignment or profit.
+
+See [What Is Delta?](https://disciplinetrading.com/blog/what-is-option-delta).
+
+## Main Risks
+
+- Large downside movement
+- Gap risk
+- Volatility expansion
+- Margin requirements
+- Liquidity and slippage
+- Concentration risk
+- Poor strike selection
+
+## Final Thoughts
+
+A Cash-Secured Put is not simply a premium-income trade.
+
+It is fundamentally a **short-put risk profile backed by capital**.
+
+The important numbers are the **strike, premium, breakeven and downside exposure**.
+
+## Frequently Asked Questions
+
+### Is a cash-secured put risk-free?
+
+No.
+
+### Is the premium guaranteed profit?
+
+No. The overall position can lose money if the underlying falls sufficiently.
+
+### Can it be used on NIFTY?
+
+Yes, but NIFTY index options have cash-settlement mechanics rather than physical delivery.
+
+## Disclaimer
+
+This article is for educational purposes only and does not constitute financial advice. Options trading involves substantial risk and can result in significant losses. Please consult a SEBI-registered investment adviser before trading.

@@ -1,0 +1,161 @@
+---
+title: "What Is a Collar Strategy in Options? Protection, Cost and NIFTY Example"
+description: "Learn how a Collar combines an underlying position, protective Put and short Call to define downside protection while limiting upside."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-20"
+tags: ["collar strategy","protective put","covered call","NIFTY options","options strategy","F&O"]
+featured: false
+---
+
+## What Is a Collar Strategy?
+
+A Collar combines:
+
+1. A long position in the underlying
+2. A long protective Put
+3. A short Call
+
+The Put provides downside protection, while the short Call can offset some or all of the Put's cost.
+
+The trade-off is that the short Call limits upside beyond its strike.
+
+## NIFTY Example
+
+Suppose an investor has long NIFTY-linked exposure near **25,000**.
+
+An illustrative Collar could use:
+
+- Buy 24,500 Put for 120 points
+- Sell 25,500 Call for 90 points
+
+Net option cost:
+
+**120 − 90 = 30 points**
+
+The exact hedge mechanics depend on whether the underlying exposure is an ETF, portfolio, futures position or another instrument.
+
+## How the Put Protects
+
+If the underlying falls below the Put strike, the long Put gains value.
+
+This reduces the downside of the combined position below the protection level, subject to the premium paid and the exact structure.
+
+## How the Short Call Limits Upside
+
+If the underlying rises above the Call strike, the short Call creates an offsetting loss.
+
+Therefore, the investor exchanges some upside potential for downside protection.
+
+## Simple Expiry Illustration
+
+Assume:
+
+- Long underlying = 25,000
+- Long Put strike = 24,500
+- Short Call strike = 25,500
+- Net option cost = 30 points
+
+### Below 24,500
+
+The Put provides protection below its strike.
+
+### Between 24,500 and 25,500
+
+Both options can expire worthless, leaving the underlying movement minus the net option cost.
+
+### Above 25,500
+
+The short Call limits upside beyond its strike.
+
+This is a simplified conceptual payoff.
+
+## Collar vs Protective Put
+
+A Protective Put is:
+
+**Long underlying + Long Put**
+
+A Collar adds:
+
+**Short Call**
+
+The Call premium can reduce the cost of the Put but creates an upside cap.
+
+See [What Is a Protective Put?](https://disciplinetrading.com/blog/what-is-protective-put).
+
+## Collar vs Covered Call
+
+| Strategy | Long Underlying | Long Put | Short Call |
+|---|---|---|---|
+| Covered Call | Yes | No | Yes |
+| Protective Put | Yes | Yes | No |
+| Collar | Yes | Yes | Yes |
+
+## Main Trade-Offs
+
+### Protection Has a Cost
+
+If the Put costs more than the Call generates, the Collar has a net debit.
+
+### Upside Is Limited
+
+The short Call creates an upper boundary.
+
+### Gap Risk
+
+The actual result depends on strike, expiry and the underlying instrument.
+
+### Execution Costs
+
+Multiple legs can create additional spread and transaction costs.
+
+## NIFTY Considerations
+
+For NIFTY-related exposure, distinguish between:
+
+- A stock or portfolio
+- A NIFTY ETF
+- NIFTY futures
+- NIFTY options
+
+The hedge mechanics and settlement rules differ.
+
+## How to Analyse a Collar
+
+1. Identify the underlying.
+2. Select the protective Put.
+3. Select the Call strike.
+4. Calculate net premium.
+5. Identify the protection level.
+6. Identify the upside cap.
+7. Review expiry and liquidity.
+8. Consider costs and adjustment rules.
+
+## Final Thoughts
+
+A Collar combines **downside protection with an upside cap**.
+
+It can be understood as a Protective Put combined with a Covered Call around an existing long position.
+
+The central trade-off is:
+
+**Give up some upside potential to obtain downside protection.**
+
+## Frequently Asked Questions
+
+### Is a Collar bullish?
+
+It is generally used around an existing long underlying position.
+
+### Does a Collar eliminate all losses?
+
+No. Premiums, gaps and the level of the Put strike all matter.
+
+### Why sell the Call?
+
+The Call premium can help offset the cost of the protective Put.
+
+## Disclaimer
+
+This article is for educational purposes only and does not constitute financial advice. Options trading involves substantial risk and can result in significant losses. Please consult a SEBI-registered investment adviser before trading.
