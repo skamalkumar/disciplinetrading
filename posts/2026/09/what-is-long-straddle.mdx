@@ -1,0 +1,134 @@
+---
+title: "What Is a Long Straddle? Strategy, Payoff, Risk and Example"
+description: "Learn how a long straddle works by buying a call and put at the same strike and expiry, including payoff, breakeven and risk."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-21"
+tags: ["Long Straddle", "Options Strategy", "NIFTY Options", "Call Option", "Put Option"]
+featured: false
+---
+
+# What Is a Long Straddle?
+
+A **Long Straddle** buys:
+
+- One Call option
+- One Put option
+- Same strike price
+- Same expiry
+
+The strategy seeks to benefit from a sufficiently large move in either direction.
+
+## NIFTY Example
+
+Suppose NIFTY is at **24,000**.
+
+Buy:
+
+- 24,000 Call at ₹180
+- 24,000 Put at ₹170
+
+Total premium = **₹350**
+
+### Upper Breakeven
+
+Strike + Total Premium
+
+= 24,000 + 350
+
+= **24,350**
+
+### Lower Breakeven
+
+Strike − Total Premium
+
+= 24,000 − 350
+
+= **23,650**
+
+At expiry:
+
+- Above 24,350 → profit
+- Below 23,650 → profit
+- Between the breakevens → loss
+
+## Maximum Loss
+
+The maximum loss is limited to the total premium paid.
+
+In this example, it is ₹350 per combined index unit before transaction costs. Actual rupee exposure depends on the applicable NIFTY lot size.
+
+## Why Buy a Long Straddle?
+
+The buyer may expect a large move but have low confidence about direction.
+
+Possible catalysts include:
+
+- Major policy announcements
+- Central-bank decisions
+- Economic data
+- Significant corporate events
+- Large volatility changes
+
+However, expected movement is already partly reflected in option premiums.
+
+## Implied Volatility
+
+A long straddle is sensitive to implied volatility.
+
+If IV rises after entry, both options can become more valuable.
+
+If IV falls, the position can lose value even when NIFTY has moved.
+
+## Time Decay
+
+Both purchased options generally carry negative theta.
+
+As expiry approaches, time value can decay rapidly if the expected move does not occur.
+
+## Payoff at Expiry
+
+**Long Call = max(Spot − Strike, 0)**
+
+**Long Put = max(Strike − Spot, 0)**
+
+**Total P&L = Call Payoff + Put Payoff − Total Premium**
+
+## Risk Profile
+
+| Market Outcome | Effect |
+|---|---|
+| Large upward move | Potentially large profit |
+| Large downward move | Potentially large profit |
+| Small move | Loss likely |
+| No move | Maximum loss at expiry |
+| IV rises | Can help before expiry |
+| Time passes | Usually hurts |
+
+## Long Straddle vs Long Strangle
+
+A long strangle uses different, usually out-of-the-money strikes.
+
+A straddle uses the same strike, generally making it more expensive but requiring a smaller move to reach its breakevens.
+
+## Frequently Asked Questions
+
+### Is the risk unlimited?
+
+No. Maximum loss for the buyer is the total premium paid.
+
+### Can it profit before expiry?
+
+Yes. The combined option value can rise enough to create a profit before expiry.
+
+### Is it bullish or bearish?
+
+Neither. It is generally direction-neutral at entry, although delta changes as the underlying moves.
+
+## Final Thoughts
+
+A long straddle exchanges a known upfront premium for exposure to a large move in either direction.
+
+The key variables are **movement, implied volatility and time**.
+
+> **Disclaimer:** This article is for educational purposes only and is not financial or investment advice. Options involve substantial risk. The NIFTY example is hypothetical.

@@ -1,0 +1,135 @@
+---
+title: "What Is a Long Strangle? Strategy, Payoff, Risk and Example"
+description: "Learn how a long strangle works, why traders use different call and put strikes, and how breakevens, premium, volatility and time affect the strategy."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-21"
+tags: ["Long Strangle", "Options Strategy", "NIFTY Options", "Volatility", "Options Trading"]
+featured: false
+---
+
+# What Is a Long Strangle?
+
+A **Long Strangle** buys:
+
+- One out-of-the-money Call
+- One out-of-the-money Put
+- Same expiry
+- Different strike prices
+
+The strategy seeks a sufficiently large move in either direction.
+
+## NIFTY Example
+
+Suppose NIFTY is trading at **24,000**.
+
+Buy:
+
+- 24,300 Call for ₹100
+- 23,700 Put for ₹90
+
+Total premium = **₹190**
+
+### Upper Breakeven
+
+24,300 + 190 = **24,490**
+
+### Lower Breakeven
+
+23,700 − 190 = **23,510**
+
+At expiry:
+
+- Above 24,490 → profit
+- Below 23,510 → profit
+- Between the breakevens → loss
+
+## Maximum Loss
+
+If NIFTY finishes between the two strikes, both options can expire worthless.
+
+Maximum loss is therefore the premium paid: **₹190 per combined index unit**, before costs and subject to the contract lot size.
+
+## Why Use a Strangle Instead of a Straddle?
+
+A long straddle uses the same strike.
+
+A long strangle uses different, usually out-of-the-money strikes.
+
+Because the options are farther from the current price, the total premium is often lower.
+
+The trade-off is:
+
+**Lower premium → larger move required to reach breakeven.**
+
+## Payoff
+
+**Call Payoff = max(Spot − Call Strike, 0)**
+
+**Put Payoff = max(Put Strike − Spot, 0)**
+
+**P&L = Call Payoff + Put Payoff − Total Premium**
+
+## Example Outcomes
+
+| NIFTY at Expiry | Approx. P&L |
+|---:|---:|
+| 25,000 | +₹510 |
+| 24,490 | ₹0 |
+| 24,000 | -₹190 |
+| 23,510 | ₹0 |
+| 23,000 | +₹510 |
+
+These are simplified expiry calculations before transaction costs.
+
+## Implied Volatility
+
+Both options are long volatility.
+
+A substantial increase in IV can increase the strangle's value before expiry.
+
+An IV contraction can reduce the value even if the underlying has moved.
+
+## Time Decay
+
+Both options are purchased, so the position generally has negative theta.
+
+If the expected move does not occur quickly enough, time decay can reduce the position's value.
+
+## Long Strangle vs Long Straddle
+
+| Feature | Long Straddle | Long Strangle |
+|---|---|---|
+| Call strike | Usually ATM | Usually OTM |
+| Put strike | Usually ATM | Usually OTM |
+| Premium | Usually higher | Usually lower |
+| Breakeven distance | Smaller | Larger |
+| Maximum loss | Premium paid | Premium paid |
+
+## Important Risk
+
+A major event does not automatically make a long strangle profitable.
+
+If the market already priced a large move and the actual move is smaller, implied volatility can fall after the event and both options can lose value.
+
+## Frequently Asked Questions
+
+### Is a long strangle bullish?
+
+No. It is generally direction-neutral at entry and seeks a sufficiently large move either way.
+
+### Is maximum loss unlimited?
+
+No. Maximum loss is limited to the premium paid.
+
+### Is a long strangle cheaper than a long straddle?
+
+Often yes, because the options are usually out-of-the-money. Exact premiums depend on strikes, expiry and implied volatility.
+
+## Final Thoughts
+
+A long strangle trades **premium for optionality**.
+
+The buyer accepts a known maximum loss in exchange for the possibility of a larger gain if the underlying makes a sufficiently large move.
+
+> **Disclaimer:** This article is for educational purposes only and is not financial or investment advice. Options involve substantial risk. The NIFTY example is hypothetical.
