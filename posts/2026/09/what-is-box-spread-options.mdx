@@ -1,0 +1,228 @@
+---
+title: "What Is a Box Spread in Options? Strategy, Payoff, Risk and Example"
+description: "Learn how a Box Spread works using four options, including the payoff structure, NIFTY example, pricing, risks and relationship with put-call parity."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-23"
+tags: ["box spread", "options strategy", "NIFTY options", "put-call parity", "F&O"]
+featured: false
+---
+
+## What Is a Box Spread in Options?
+
+A **Box Spread** is an options position created using four options that combines a bull call spread and a bear put spread with the same strikes and expiry.
+
+A standard long box can be viewed as:
+
+- Buy lower-strike call
+- Sell higher-strike call
+- Buy higher-strike put
+- Sell lower-strike put
+
+All four options have the same expiry.
+
+The structure is designed to create a fixed payoff at expiry, subject to contract specifications, settlement mechanics, transaction costs and other practical factors.
+
+## Basic Structure
+
+Suppose NIFTY is trading around 25,000.
+
+Consider:
+
+- Buy 24,900 Call
+- Sell 25,100 Call
+- Buy 25,100 Put
+- Sell 24,900 Put
+
+The strike difference is:
+
+**25,100 − 24,900 = 200 points**
+
+At expiry, the combined payoff is designed to equal the strike difference:
+
+**₹200 per unit**
+
+before premiums, costs and settlement details.
+
+## Why Does the Box Have a Fixed Payoff?
+
+Break the position into two vertical spreads.
+
+### Bull Call Spread
+
+- Buy 24,900 Call
+- Sell 25,100 Call
+
+Maximum expiry payoff:
+
+**₹200**
+
+### Bear Put Spread
+
+- Buy 25,100 Put
+- Sell 24,900 Put
+
+Maximum expiry payoff:
+
+**₹200**
+
+When combined appropriately, the four legs form the box structure.
+
+## Premium and Theoretical Value
+
+Suppose the box costs a net:
+
+**₹192**
+
+and the strike difference is:
+
+**₹200**
+
+Then the gross difference at expiry is:
+
+**₹200 − ₹192 = ₹8**
+
+before transaction costs and other considerations.
+
+The apparent return should not be interpreted as a guaranteed trading profit because execution, taxes, margin, liquidity and financing effects matter.
+
+## Relationship With Put-Call Parity
+
+Box spreads are closely related to **Put-Call Parity**.
+
+Put-call parity describes a theoretical relationship between calls, puts, the underlying and a financing component.
+
+A box spread packages option positions so that the terminal payoff is fixed.
+
+See [What Is Put-Call Parity?](/blog/what-is-put-call-parity).
+
+## Long Box vs Short Box
+
+### Long Box
+
+A trader establishes the box for a net debit and receives the fixed strike-difference payoff at expiry.
+
+### Short Box
+
+A trader establishes the reverse structure for a net credit and has an obligation corresponding to the fixed expiry payoff.
+
+Margin and practical risk depend heavily on the market and contract specifications.
+
+## A NIFTY Example
+
+Assume:
+
+- Lower strike = 24,900
+- Higher strike = 25,100
+- Strike width = 200 points
+
+Suppose the four-leg combination can be executed for a net debit of ₹194.
+
+At expiry, the designed gross payoff is:
+
+**₹200**
+
+Gross difference:
+
+**₹200 − ₹194 = ₹6**
+
+If the contract multiplier were 75 units purely for illustration:
+
+**₹6 × 75 = ₹450**
+
+This is only a mathematical illustration. Actual NIFTY contract specifications can change.
+
+## Why Is the Box Spread Interesting?
+
+The box can be viewed as a financing-like options structure because the terminal payoff is fixed.
+
+Its pricing can therefore be compared with the cost of financing capital over the life of the trade.
+
+This is different from directional strategies such as a long call or short straddle.
+
+## Main Risks
+
+### Execution Risk
+
+Four separate option legs may not fill at intended prices.
+
+### Bid-Ask Spread
+
+Wide spreads can consume the theoretical pricing difference.
+
+See [What Is Bid-Ask Spread?](/blog/what-is-bid-ask-spread).
+
+### Transaction Costs
+
+Brokerage, exchange charges, taxes and other costs can materially affect small pricing differences.
+
+### Liquidity Risk
+
+Some strikes or expiries may not have sufficient liquidity.
+
+### Settlement Risk
+
+Contract specifications and settlement mechanisms matter.
+
+### Margin Risk
+
+A defined terminal payoff can still require substantial capital or margin before expiry.
+
+## Box Spread vs Vertical Spread
+
+**Vertical Spread:**
+
+- Two options
+- Same expiry
+- Different strikes
+- Directional or volatility-related payoff
+
+**Box Spread:**
+
+- Four options
+- Same expiry
+- Two strikes
+- Fixed designed payoff at expiry
+
+## Practical Checklist
+
+Before considering a box spread, check:
+
+1. Current strike prices.
+2. Same expiry across all legs.
+3. Bid-ask spreads.
+4. Net execution price.
+5. Strike width.
+6. Contract multiplier.
+7. Margin requirements.
+8. Transaction costs.
+9. Settlement rules.
+10. Financing opportunity cost.
+
+## Frequently Asked Questions
+
+### Is a Box Spread directional?
+
+The combined expiry payoff is designed to be fixed, so it is fundamentally different from a directional vertical spread.
+
+### Is the payoff guaranteed?
+
+The theoretical terminal payoff is defined by the structure, but the actual outcome is affected by execution, costs, settlement and contract specifications.
+
+### Why is a Box Spread related to Put-Call Parity?
+
+The four-leg structure creates a fixed terminal payoff, reflecting the pricing relationship described by put-call parity.
+
+### Can Box Spreads be used on NIFTY?
+
+They can be studied where suitable contracts and liquidity exist, but current contract specifications and broker/exchange rules must be checked.
+
+## Final Thoughts
+
+A Box Spread is best understood as a **four-option structure with a fixed designed payoff at expiry**.
+
+Its real-world economics depend on entry price, terminal payoff, costs, liquidity, margin and settlement.
+
+---
+
+**Disclaimer:** This article is for educational purposes only and does not constitute financial advice. Options involve substantial risk. Contract specifications, settlement rules, taxes, margins and lot sizes can change.

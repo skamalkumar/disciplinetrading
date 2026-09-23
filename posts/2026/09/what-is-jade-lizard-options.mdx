@@ -1,0 +1,266 @@
+---
+title: "What Is a Jade Lizard Options Strategy? Setup, Payoff, Risk and Example"
+description: "Learn how the Jade Lizard options strategy combines a short put with a short call spread, including a NIFTY example, breakeven, risk and adjustments."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-23"
+tags: ["jade lizard", "options strategy", "NIFTY options", "short put", "call spread", "F&O"]
+featured: false
+---
+
+## What Is a Jade Lizard Options Strategy?
+
+A **Jade Lizard** is an options strategy that combines:
+
+- A short put
+- A short call spread
+
+All options generally have the same expiry.
+
+The structure is commonly used when a trader has a neutral-to-bullish view and wants to collect option premium while defining the upside risk through the call spread.
+
+The downside risk from the short put remains substantial.
+
+## Basic Structure
+
+A typical Jade Lizard consists of:
+
+**Sell one put**
+
+**Sell one lower-strike call**
+
+**Buy one higher-strike call**
+
+For example, with NIFTY around 25,000:
+
+- Sell 24,800 Put
+- Sell 25,200 Call
+- Buy 25,400 Call
+
+All three options have the same expiry.
+
+## Why Is It Called a Jade Lizard?
+
+The position combines:
+
+- A short put
+- A short call credit spread
+
+Together they create a three-leg premium-selling position with defined risk on the call side and substantial downside exposure.
+
+## NIFTY Example
+
+Suppose NIFTY is around 25,000.
+
+A trader enters:
+
+- Sell 24,800 Put for ₹120
+- Sell 25,200 Call for ₹100
+- Buy 25,400 Call for ₹45
+
+Net premium received:
+
+**₹120 + ₹100 − ₹45 = ₹175**
+
+The trader receives ₹175 per unit before costs.
+
+## Maximum Profit
+
+The maximum profit is generally the net premium received if the options expire within the favourable region.
+
+In this example:
+
+**Maximum profit = ₹175 per unit**
+
+If the contract multiplier were 75 units purely for illustration:
+
+**₹175 × 75 = ₹13,125**
+
+Actual lot sizes can change, so current contract specifications must be verified.
+
+## Upside Risk
+
+The call spread has a defined width.
+
+Call spread width:
+
+**25,400 − 25,200 = 200 points**
+
+Premium received:
+
+**₹175**
+
+Therefore, the maximum loss on the call-spread side is:
+
+**₹200 − ₹175 = ₹25 per unit**
+
+before costs, assuming the standard expiry payoff.
+
+## Downside Risk
+
+The short put creates substantial downside risk.
+
+For the 24,800 Put:
+
+**Put breakeven = 24,800 − ₹175 = 24,625**
+
+So, under the simplified expiry calculation:
+
+- Above 25,200: the short put and call spread can both expire favourably depending on price.
+- Between 24,800 and 25,200: all options can expire worthless and the trader keeps the premium.
+- Below 24,625: the short put produces a net expiry loss.
+- Above 25,400: the call spread reaches its maximum loss, offset partly by the premium received.
+
+## The Key Jade Lizard Condition
+
+A commonly discussed condition is:
+
+**Total premium received should be greater than the width of the call spread.**
+
+In this example:
+
+- Call spread width = ₹200
+- Premium received = ₹175
+
+So the condition is **not** satisfied.
+
+If instead the trader received ₹220:
+
+**₹220 > ₹200**
+
+then the call-spread side could theoretically have no net loss at expiry before transaction costs, while the short put would still carry substantial downside exposure.
+
+## Payoff Zones
+
+For the example:
+
+- Short Put = 24,800
+- Short Call = 25,200
+- Long Call = 25,400
+- Premium = ₹175
+
+### NIFTY below 24,800
+
+The short put is in the money and downside losses increase as NIFTY falls.
+
+### NIFTY between 24,800 and 25,200
+
+All options can expire worthless, leaving the trader with the net premium.
+
+### NIFTY between 25,200 and 25,400
+
+The short call becomes increasingly costly, while the long call offsets part of that loss.
+
+### NIFTY above 25,400
+
+The call spread reaches its maximum intrinsic loss, while the received premium offsets part of it.
+
+## Breakeven
+
+The simplified downside breakeven is:
+
+**Put strike − Net premium received**
+
+For the example:
+
+**24,800 − 175 = 24,625**
+
+The complete payoff should be calculated from all three legs rather than relying on a generic formula.
+
+## Jade Lizard vs Short Strangle
+
+A **Short Strangle** sells:
+
+- OTM put
+- OTM call
+
+Both sides have substantial tail risk.
+
+A **Jade Lizard** sells:
+
+- Put
+- Call spread
+
+The call-side risk is capped by the long call.
+
+See [What Is a Short Strangle?](/blog/what-is-short-strangle).
+
+## Jade Lizard vs Covered Call
+
+A covered call involves:
+
+- Long underlying
+- Short call
+
+A Jade Lizard does not require owning the underlying and instead combines option positions.
+
+See [What Is a Covered Call?](/blog/what-is-covered-call).
+
+## Main Risks
+
+### Short Put Risk
+
+A sharp decline in NIFTY can produce substantial losses.
+
+### Gap Risk
+
+A large overnight or event-driven move can make adjustment difficult.
+
+### Volatility Risk
+
+An increase in implied volatility can increase the cost of closing the short options.
+
+### Liquidity Risk
+
+Three-leg strategies can be difficult to execute efficiently when spreads are wide.
+
+### Assignment and Settlement Risk
+
+Treatment depends on the specific option contract and market.
+
+## Practical Checklist
+
+Before considering a Jade Lizard, check:
+
+1. NIFTY level.
+2. Put strike.
+3. Short call strike.
+4. Long call strike.
+5. Net premium.
+6. Call-spread width.
+7. Downside breakeven.
+8. Maximum upside loss.
+9. Margin requirement.
+10. Exit and adjustment rules.
+
+## Frequently Asked Questions
+
+### Is a Jade Lizard bullish?
+
+It is commonly used with a neutral-to-bullish outlook, but the actual payoff depends on strikes, premiums and expiry.
+
+### Is the downside risk limited?
+
+No. The short put creates substantial downside exposure.
+
+### Is the upside risk limited?
+
+Yes. The long call limits the loss from the short call beyond its strike.
+
+### What is the ideal premium condition?
+
+A commonly discussed construction seeks total premium greater than the width of the call spread. This can eliminate the net loss on the call-spread side at expiry before costs, but it does not eliminate short-put risk.
+
+## Final Thoughts
+
+The Jade Lizard combines **premium collection, a short put and a defined-risk call spread**.
+
+Its central feature is the asymmetry:
+
+**Upside risk can be capped, while downside risk from the short put remains substantial.**
+
+Understanding the complete expiry payoff is more important than simply focusing on premium received.
+
+---
+
+**Disclaimer:** This article is for educational purposes only and does not constitute financial advice. Options involve substantial risk. Contract specifications, settlement rules, margin requirements and lot sizes can change.
