@@ -1,0 +1,217 @@
+---
+title: "What Is a Put Ratio Spread? Strategy, Payoff, Risk and NIFTY Example"
+description: "Learn how a Put Ratio Spread works, how unequal option quantities change the payoff, and where the additional short put creates risk."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-24"
+tags: ["put ratio spread", "options strategy", "NIFTY options", "put options", "F&O"]
+featured: false
+---
+
+## What Is a Put Ratio Spread?
+
+A **Put Ratio Spread** uses different quantities of puts at different strikes.
+
+A common 1×2 structure is:
+
+- Buy one higher-strike put
+- Sell two lower-strike puts
+
+All options normally have the same expiry.
+
+The unequal quantities create an asymmetric payoff.
+
+## Basic NIFTY Structure
+
+Suppose NIFTY is around 25,000.
+
+A trader could use:
+
+- Buy 25,000 Put
+- Sell 2 × 24,700 Puts
+
+The exact risk profile depends on the premiums and strike distance.
+
+## Why Use a Ratio?
+
+A normal vertical put spread uses equal quantities:
+
+**Buy 1 Put + Sell 1 Put**
+
+A ratio spread uses unequal quantities:
+
+**Buy 1 Put + Sell 2 Puts**
+
+The extra short option changes the downside risk.
+
+## NIFTY Example
+
+Suppose:
+
+- Buy 25,000 Put for ₹180
+- Sell two 24,700 Puts for ₹75 each
+
+Premium paid:
+
+**₹180**
+
+Premium received:
+
+**₹75 × 2 = ₹150**
+
+Net debit:
+
+**₹30**
+
+The actual market premiums will vary.
+
+## Payoff Above 25,000
+
+If NIFTY expires above 25,000:
+
+- Long put expires worthless.
+- Short puts also expire worthless.
+
+Ignoring costs, the trader loses the ₹30 debit.
+
+## Payoff Between the Strikes
+
+Suppose NIFTY expires at 24,850.
+
+Long 25,000 Put:
+
+**25,000 − 24,850 = 150 points**
+
+The 24,700 puts remain out of the money.
+
+Ignoring costs:
+
+**Profit = 150 − 30 = ₹120**
+
+## Payoff Below 24,700
+
+Suppose NIFTY expires at 24,500.
+
+Long 25,000 Put value:
+
+**25,000 − 24,500 = ₹500**
+
+Each short 24,700 Put loses:
+
+**24,700 − 24,500 = ₹200**
+
+Two short puts:
+
+**₹200 × 2 = ₹400**
+
+Net intrinsic value:
+
+**₹500 − ₹400 = ₹100**
+
+After the ₹30 debit:
+
+**₹100 − ₹30 = ₹70**
+
+If NIFTY falls much further, the extra short put creates increasing downside exposure.
+
+## The Key Risk
+
+The additional short put is the defining risk of the conventional 1×2 structure.
+
+This means a ratio spread should not be treated like a simple defined-risk bear put spread.
+
+## Put Ratio Spread vs Bear Put Spread
+
+A [Bear Put Spread](/blog/what-is-bear-put-spread) normally uses:
+
+- Buy one higher-strike put
+- Sell one lower-strike put
+
+A Put Ratio Spread can use:
+
+- Buy one higher-strike put
+- Sell two lower-strike puts
+
+The extra short put changes the risk substantially.
+
+## Put Ratio Spread vs Put Butterfly
+
+A standard butterfly normally includes a lower protective long put.
+
+A simple ratio spread may not.
+
+That lower long option can materially change the downside risk profile.
+
+## Maximum Profit
+
+For a standard 1×2 structure, maximum profit generally occurs around the lower short strike at expiry.
+
+The exact amount depends on:
+
+- Strike difference
+- Quantity ratio
+- Net premium
+
+Always calculate the actual payoff.
+
+## Breakevens
+
+The upper breakeven in the example is approximately:
+
+**25,000 − ₹30 = 24,970**
+
+The lower breakeven must be derived from the complete payoff because the extra short put changes the downside slope.
+
+A payoff graph is therefore particularly useful.
+
+## Main Risks
+
+- Large downside move
+- Gap risk
+- Implied-volatility changes
+- Liquidity and slippage
+- Margin requirements
+- Expiry sensitivity
+
+## Practical Checklist
+
+1. Identify the quantity ratio.
+2. Map every strike.
+3. Calculate net premium.
+4. Calculate maximum profit.
+5. Calculate all breakevens.
+6. Identify the unprotected region.
+7. Stress-test large declines.
+8. Check margin.
+9. Check liquidity.
+10. Define an exit or adjustment plan.
+
+## Frequently Asked Questions
+
+### Is a Put Ratio Spread bullish or bearish?
+
+It is generally structured to benefit from a decline toward the short strike, but the exact payoff depends on strikes, quantities and premiums.
+
+### Is downside risk limited?
+
+Not necessarily. A 1×2 structure can have substantial downside risk.
+
+### Is it the same as a Bear Put Spread?
+
+No. A bear put spread normally uses equal quantities.
+
+### Can it be used on NIFTY?
+
+Yes, where suitable contracts and liquidity exist, subject to current exchange specifications.
+
+## Final Thoughts
+
+A Put Ratio Spread shows how **changing option quantities can dramatically change risk**.
+
+The strategy can create a useful payoff around a target zone, but the additional short put introduces significant downside exposure.
+
+Always map the complete payoff before considering the trade.
+
+---
+
+**Disclaimer:** This article is for educational purposes only and does not constitute financial advice. Options involve substantial risk.
