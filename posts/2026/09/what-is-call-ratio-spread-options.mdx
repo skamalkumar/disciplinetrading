@@ -1,0 +1,159 @@
+---
+title: "What Is a Call Ratio Spread in Options? Strategy, Payoff, Risk and NIFTY Example"
+description: "Learn how a Call Ratio Spread works, how unequal quantities create an asymmetric payoff, and where the additional short call creates risk."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-29"
+tags: ["call ratio spread", "options strategy", "NIFTY options", "call options", "F&O"]
+featured: false
+---
+
+## What Is a Call Ratio Spread?
+
+A **Call Ratio Spread** uses different quantities of call options at different strikes.
+
+A common 1×2 structure is:
+
+- Buy one lower-strike call
+- Sell two higher-strike calls
+
+All options normally have the same expiry.
+
+The additional short call creates an asymmetric payoff.
+
+## NIFTY Example
+
+Suppose NIFTY is around 25,000.
+
+A trader creates:
+
+- Buy 25,000 Call
+- Sell 2 × 25,300 Calls
+
+Assume:
+
+- 25,000 Call premium = ₹180
+- 25,300 Call premium = ₹90 each
+
+Premium received:
+
+**₹90 × 2 = ₹180**
+
+Net premium:
+
+**₹180 − ₹180 = ₹0**
+
+This is an illustrative zero-cost ratio spread before transaction costs.
+
+## Payoff Above 25,300
+
+Suppose NIFTY expires at 25,500.
+
+Long 25,000 Call:
+
+**25,500 − 25,000 = 500 points**
+
+Each short 25,300 Call loses:
+
+**25,500 − 25,300 = 200 points**
+
+Two short calls:
+
+**200 × 2 = 400 points**
+
+Net payoff:
+
+**500 − 400 = 100 points**
+
+Ignoring premium and costs.
+
+## Payoff Around the Short Strike
+
+At 25,300:
+
+- Long 25,000 Call = 300 points
+- Short calls = 0
+
+The structure can therefore have its strongest payoff around the short strike, depending on premium.
+
+## The Key Risk
+
+Above the upper short strike, the additional short call causes the payoff to decline.
+
+If NIFTY continues rising substantially, losses can become large.
+
+A standard 1×2 Call Ratio Spread should therefore not be treated as a simple defined-risk spread.
+
+## Call Ratio Spread vs Bull Call Spread
+
+A [Bull Call Spread](/blog/what-is-bull-call-spread) uses equal quantities:
+
+- Buy lower-strike call
+- Sell higher-strike call
+
+A Call Ratio Spread uses unequal quantities:
+
+- Buy 1 lower-strike call
+- Sell 2 higher-strike calls
+
+The extra short call changes the risk profile.
+
+## Main Risks
+
+- Strong upside move
+- Gap risk
+- Implied-volatility changes
+- Liquidity and slippage
+- Margin requirements
+- Expiry sensitivity
+
+## Breakevens
+
+Breakevens depend on:
+
+- Strike spacing
+- Quantity ratio
+- Net premium
+
+Always calculate the complete expiry payoff before entering.
+
+## Practical Checklist
+
+1. Identify every leg.
+2. Confirm the quantity ratio.
+3. Calculate net premium.
+4. Map maximum profit.
+5. Calculate breakevens.
+6. Identify the unlimited-risk region.
+7. Stress-test a large NIFTY rally.
+8. Check margin.
+9. Check liquidity.
+10. Define an exit or adjustment plan.
+
+## Frequently Asked Questions
+
+### Is a Call Ratio Spread bullish?
+
+It can be structured for a mildly bullish or range-bound view, depending on strikes and premiums.
+
+### Is the upside risk limited?
+
+Not necessarily. The extra short call can create substantial upside risk.
+
+### Is it the same as a Bull Call Spread?
+
+No. The quantities are different.
+
+### Can it be used on NIFTY?
+
+Yes, provided suitable contracts and liquidity are available and current specifications are checked.
+
+## Final Thoughts
+
+A Call Ratio Spread demonstrates how **option quantity changes can create asymmetric risk**.
+
+Always consider the payoff near the target strike alongside the risk created by the additional short call.
+
+---
+
+**Disclaimer:** This article is for educational purposes only. Options involve substantial risk.

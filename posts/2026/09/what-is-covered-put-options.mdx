@@ -1,0 +1,164 @@
+---
+title: "What Is a Covered Put in Options? Strategy, Risk and NIFTY Example"
+description: "Learn what a Covered Put is, how the short stock position interacts with a short put, and why the strategy has significant risk."
+category: "F&O Basics"
+author: "Kamal Kumar"
+date: "2026-09-29"
+tags: ["covered put", "options strategy", "short stock", "put options", "NIFTY"]
+featured: false
+---
+
+## What Is a Covered Put?
+
+A **Covered Put** combines:
+
+- A short position in the underlying
+- A short put option
+
+The short underlying position provides the underlying exposure associated with the short put.
+
+The strategy is sometimes described as the bearish counterpart to a covered call.
+
+## Basic Structure
+
+A simplified structure is:
+
+**Short 100 shares**
+
+**Sell 1 Put**
+
+The option contract size must match the underlying exposure according to applicable specifications.
+
+## Example
+
+Suppose a stock is trading at ₹1,000.
+
+A trader:
+
+- Shorts the stock at ₹1,000
+- Sells a ₹950 Put for ₹25
+
+Ignoring costs, the option premium received is ₹25 per share.
+
+## If the Stock Rises
+
+Suppose the stock rises to ₹1,100 and remains above ₹950.
+
+The short put expires worthless.
+
+The short stock loses:
+
+**₹1,100 − ₹1,000 = ₹100**
+
+The ₹25 premium offsets part of the loss.
+
+Net:
+
+**−₹100 + ₹25 = −₹75**
+
+## If the Stock Falls
+
+Suppose the stock falls to ₹900.
+
+The short stock gains:
+
+**₹1,000 − ₹900 = ₹100**
+
+The ₹950 Put has ₹50 intrinsic value. Because the put was sold, this creates a ₹50 loss.
+
+Adding the ₹25 premium:
+
+**₹100 − ₹50 + ₹25 = ₹75**
+
+This is an illustrative expiry payoff before costs.
+
+## Payoff Structure
+
+Below the put strike, the short put offsets part of the short-stock gain.
+
+Above the strike, the short stock continues to lose as the underlying rises.
+
+The complete payoff should always be mapped before entry.
+
+## Covered Put vs Covered Call
+
+A covered call normally combines:
+
+**Long stock + short call**
+
+A covered put combines:
+
+**Short stock + short put**
+
+| Feature | Covered Call | Covered Put |
+|---|---|---|
+| Stock position | Long | Short |
+| Option sold | Call | Put |
+| General bias | Neutral to mildly bullish | Neutral to mildly bearish |
+| Main stock risk | Downside | Upside |
+
+## Important Risks
+
+The short stock position can lose substantially if the stock rises.
+
+The short put also creates additional downside exposure below the strike.
+
+Other practical considerations can include:
+
+- Margin requirements
+- Securities borrowing
+- Dividends
+- Corporate actions
+- Liquidity
+- Transaction costs
+
+## Covered Put vs Cash-Secured Put
+
+A cash-secured put involves a short put backed by cash or collateral.
+
+A covered put involves short stock plus a short put.
+
+They have fundamentally different underlying exposures.
+
+See [What Is Cash-Secured Put?](/blog/what-is-cash-secured-put).
+
+## Practical Checklist
+
+1. Understand the short-stock exposure.
+2. Confirm option contract size.
+3. Calculate net premium.
+4. Map payoff at several prices.
+5. Understand margin.
+6. Consider borrow availability.
+7. Check dividends and corporate actions.
+8. Define an exit plan.
+9. Stress-test a sharp rally.
+10. Account for transaction costs.
+
+## Frequently Asked Questions
+
+### Is a Covered Put bullish or bearish?
+
+It is generally associated with a bearish or neutral-to-bearish view.
+
+### Is the risk limited?
+
+The short stock can create substantial upside risk if the underlying rises sharply.
+
+### Is it the same as a Cash-Secured Put?
+
+No. The underlying exposures are different.
+
+### Can it be used with NIFTY?
+
+The concept can be illustrated with index or stock derivatives, but exact implementation depends on available contracts and current specifications.
+
+## Final Thoughts
+
+A Covered Put combines **short underlying exposure with a short put**.
+
+The premium changes the payoff but does not remove the underlying risks. Always examine the full payoff, margin requirements and market-specific rules.
+
+---
+
+**Disclaimer:** This article is for educational purposes only. Options and short selling involve substantial risk.
