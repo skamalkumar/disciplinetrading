@@ -1,0 +1,154 @@
+---
+title: "What Is a Covered Strangle? Strategy, Risk and NIFTY Example"
+description: "Learn how a Covered Strangle combines an underlying position with a short Call and short Put, including income potential and downside risk."
+date: "2026-10-01"
+category: "F&O Basics"
+author: "Kamal Kumar"
+tags: ["covered strangle","options strategy","NIFTY options","covered call","short put"]
+featured: false
+---
+
+## What Is a Covered Strangle?
+
+A Covered Strangle combines ownership of the underlying with:
+
+- A short Call
+- A short Put
+
+The short Call is similar to a Covered Call. The additional short Put creates extra premium income potential but also adds downside exposure.
+
+See [What Is a Covered Call?](https://www.disciplinetrading.com/blog/what-is-covered-call).
+
+## Basic Structure
+
+A simplified structure is:
+
+**Own the underlying**
+
+**Sell an OTM Call**
+
+**Sell an OTM Put**
+
+The Call and Put normally have different strikes.
+
+## NIFTY-Style Example
+
+Suppose NIFTY is around 25,000.
+
+Hypothetically:
+
+- Own underlying exposure
+- Sell 25,500 Call for ₹100
+- Sell 24,500 Put for ₹90
+
+Total premium:
+
+**₹190**
+
+The premium is compensation for accepting the obligations of the two short options. It is not risk-free income.
+
+## If NIFTY Stays Between the Strikes
+
+If NIFTY remains between 24,500 and 25,500 at expiry:
+
+- The Call can expire worthless.
+- The Put can expire worthless.
+- The trader keeps the option premiums, ignoring costs.
+- The underlying remains exposed to its own price movement.
+
+## If NIFTY Rises
+
+Above the Call strike, the short Call becomes increasingly valuable to the buyer.
+
+The underlying position can offset the Call obligation economically, but upside participation is limited relative to simply holding the underlying.
+
+## If NIFTY Falls
+
+Below the Put strike, the short Put begins losing value.
+
+The trader can face additional downside exposure or an obligation to acquire the underlying according to the applicable contract and settlement rules.
+
+At the same time, the existing underlying position is losing value.
+
+This is the major risk of the structure.
+
+## Covered Strangle vs Covered Call
+
+| Feature | Covered Call | Covered Strangle |
+|---|---|---|
+| Own underlying | Yes | Yes |
+| Short Call | Yes | Yes |
+| Short Put | No | Yes |
+| Upside capped | Generally | Generally |
+| Additional downside exposure | No short Put | Yes |
+
+## Covered Strangle vs Short Strangle
+
+A Short Strangle consists of a short Call and short Put.
+
+A Covered Strangle additionally contains the underlying position.
+
+See [What Is a Short Strangle?](https://www.disciplinetrading.com/blog/what-is-short-strangle).
+
+## Premium Is Not Free Income
+
+Suppose ₹190 is collected.
+
+A large market move can create losses much greater than ₹190.
+
+The strategy should therefore be evaluated as one combined position.
+
+## Implied Volatility
+
+Higher IV can increase option premiums, but higher IV can also reflect greater expected movement.
+
+Therefore:
+
+**Higher premium does not automatically mean lower risk.**
+
+See [What Is Implied Volatility?](https://www.disciplinetrading.com/blog/what-is-implied-volatility).
+
+## Risk Management
+
+Before using the strategy, define:
+
+1. Call strike
+2. Put strike
+3. Position size
+4. Maximum acceptable downside
+5. Adjustment rules
+6. Exit rules
+7. Margin requirements
+8. Settlement and assignment implications
+
+## Final Thoughts
+
+A Covered Strangle combines an underlying position with a short Call and short Put.
+
+It can generate more option premium than a simple Covered Call, but the additional Put creates additional downside exposure.
+
+The key principle is:
+
+**More premium comes with more obligation.**
+
+## Frequently Asked Questions
+
+### Is a Covered Strangle risk-free?
+
+No.
+
+### Does the short Call cap upside?
+
+Generally, yes, relative to simply holding the underlying.
+
+### Why sell the Put?
+
+To receive additional premium, while accepting the corresponding downside obligation.
+
+### Is it the same as a Short Strangle?
+
+No. A Covered Strangle also includes the underlying position.
+
+## Disclaimer
+
+This article is educational only and is not financial advice. Options involve substantial risk. Check current contract specifications and settlement rules before trading.
