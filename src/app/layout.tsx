@@ -1,4 +1,6 @@
+
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -74,6 +76,24 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
       <body className="bg-[#0a0a0a] text-[#e8e0d0] antialiased">
+        <Script
+          id="monetag-vignette"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(s) {
+                s.dataset.zone = '11988630';
+                s.src = 'https://n6wxm.com/vignette.min.js';
+              })(
+                [document.documentElement, document.body]
+                  .filter(Boolean)
+                  .pop()
+                  .appendChild(document.createElement('script'))
+              );
+            `,
+          }}
+        />
+
         <Navbar />
         <main>{children}</main>
         <Footer />
