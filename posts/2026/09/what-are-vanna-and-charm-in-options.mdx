@@ -1,0 +1,80 @@
+---
+title: "What Are Vanna and Charm in Options? The Lesser-Known Greeks"
+description: "Understand Vanna and Charm, second-order option Greeks that describe how Delta and other sensitivities change as volatility and time change."
+date: "2026-10-15"
+category: "Options Trading"
+tags: ["Vanna", "Charm", "option Greeks", "Delta", "implied volatility"]
+---
+
+# What Are Vanna and Charm in Options?
+
+Vanna and Charm are often called **second-order option Greeks**. They describe changes in an option's sensitivities, rather than only the immediate effect of a price or volatility change. They are more common in advanced options analysis than in a beginner's first checklist.
+
+Definitions, units, and sign conventions can vary by model or platform, so check how your data provider calculates them.
+
+## What is Vanna?
+
+Vanna describes the sensitivity of Delta to a change in implied volatility. In common mathematical definitions, it is also related to the sensitivity of Vega to a change in the underlying price.
+
+In practical terms, a change in IV can change an option's Delta even if the underlying has not moved much. The size and direction depend on the option and model.
+
+## What is Charm?
+
+Charm describes how Delta changes as time passes, under the assumptions of the pricing model. It is sometimes described as the time decay of Delta.
+
+As expiry approaches, an option's Delta may drift even when the underlying stays around the same level. This can matter to traders maintaining Delta-neutral positions or hedging an options portfolio.
+
+## Conceptual example
+
+A trader holds a NIFTY option and monitors Delta. Before a large index move occurs, two things may still change the hedge requirement:
+
+- Implied volatility changes, potentially affecting Delta through Vanna.
+- Time passes, potentially affecting Delta through Charm.
+
+A hedge based only on the Delta displayed at entry can therefore drift. This explains the concepts; it does not predict the direction or size of a live trade's change.
+
+## Why advanced traders watch them
+
+Vanna and Charm can help with portfolio risk management, scenario analysis, and estimates of hedging flows. They are not independent buy or sell signals, and public dashboards may use different conventions or approximations.
+
+## Vanna vs Charm
+
+| Greek | Main idea | Common use |
+|---|---|---|
+| Vanna | Delta sensitivity to implied volatility | Understanding how volatility changes can alter Delta |
+| Charm | Delta sensitivity to time passing | Understanding how Delta may drift toward expiry |
+
+## How to use them carefully
+
+1. Learn Delta, Gamma, Theta, and Vega first.
+2. Confirm the platform's definitions and units.
+3. Use scenario analysis instead of relying on one reading.
+4. Remember actual prices may differ from model assumptions.
+5. Do not treat a single Greek value as proof of market direction.
+
+## Key takeaway
+
+Vanna and Charm explain why an options position's risk profile can evolve even without a dramatic underlying move. They add detail to risk analysis but do not replace a clear strategy and risk limits.
+
+## Related Reading
+
+- [What Are Option Greeks?](/blog/what-are-option-greeks)
+- [What Is Delta in Options?](/blog/what-is-option-delta)
+- [What Is Gamma in Options?](/blog/what-is-gamma-in-options)
+- [What Is Vega in Options?](/blog/what-is-vega-in-options)
+- [What Is Time Decay in Options?](/blog/what-is-time-decay-in-options)
+
+## Frequently Asked Questions
+
+### Are Vanna and Charm more important than Delta?
+Not universally. Delta is often more intuitive for basic directional exposure; Vanna and Charm add detail about how Delta can change.
+
+### Do they tell me whether NIFTY will rise or fall?
+No. They describe option sensitivities, not standalone market forecasts.
+
+### Should beginners use them to select trades?
+Beginners should first understand payoff, Greeks, expiry, and maximum loss before adding more complex measures.
+
+## Disclaimer
+
+Educational content only; not investment advice. Greek definitions and signs can vary by model or platform. Options involve substantial risk.
