@@ -1,0 +1,81 @@
+---
+title: "What Is Gamma Scalping? Understanding Dynamic Options Hedging"
+description: "Understand gamma scalping, how Delta changes as prices move, why traders rebalance hedges, and the role of volatility, theta and transaction costs."
+date: "2026-10-29"
+category: "Options Strategies"
+tags: ["gamma scalping", "gamma", "delta hedging", "implied volatility", "options strategies", "derivatives"]
+featured: false
+---
+
+## What Is Gamma Scalping?
+
+Gamma scalping is an advanced options-management technique in which a trader adjusts a Delta hedge as the underlying price moves. It is commonly discussed in connection with long-Gamma positions, where Delta changes in a way that can allow the trader to sell some underlying exposure after rises and buy it back after falls, or vice versa depending on the position and market path.
+
+The technique is not a guaranteed-profit strategy. Results depend on the size and pattern of price moves, option premium paid, time decay, implied volatility, hedging frequency and trading costs.
+
+## Why Gamma Matters
+
+Delta estimates an option's sensitivity to a small change in the underlying. Gamma estimates how much Delta changes for a change in the underlying. Long options often have positive Gamma, while short options often have negative Gamma, although the complete portfolio determines the actual exposure.
+
+See [What Is Gamma in Options?](https://disciplinetrading.com/blog/what-is-gamma-in-options) and [What Is Time Decay in Options?](https://disciplinetrading.com/blog/what-is-time-decay-in-options).
+
+## Illustrative Example
+
+Imagine a trader owns an option position with positive Gamma and initially offsets its Delta using a hedge. If the underlying rises, the option position's Delta may increase. The trader can adjust the hedge to bring net Delta back toward the desired level. If the underlying later falls, the required hedge may move in the opposite direction.
+
+The sequence can create gains from rebalancing in a sufficiently active price path, but it does not mean every price fluctuation produces a net profit. The option's Theta decay and the cost of repeated hedge trades can outweigh the benefit.
+
+## The Relationship Between Gamma and Theta
+
+Long-Gamma positions commonly involve paying option premium and experiencing time decay, all else equal. Gamma scalping attempts to manage the changing Delta exposure, but the hedge gains must be assessed against the cost of carrying the option and trading the hedge.
+
+A quiet market may provide too little movement to offset decay and costs. A volatile market may offer more opportunities to rebalance, but sharp gaps, slippage and execution problems can also increase risk.
+
+## What Conditions Matter?
+
+- **Gamma exposure:** How sensitive is Delta to the underlying price?
+- **Realised movement:** How much does the underlying actually move, and along what path?
+- **Implied volatility:** What premium was paid for the options?
+- **Theta:** How quickly is the position losing time value, all else equal?
+- **Execution costs:** What do spreads, brokerage, taxes and slippage cost?
+- **Hedge instrument:** Does it track the option's underlying exposure closely?
+
+## Common Misunderstandings
+
+### “High volatility always makes gamma scalping profitable.”
+
+Not necessarily. The movement must be considered against the option premium, volatility priced into the option, time decay and hedge costs.
+
+### “Every hedge adjustment locks in profit.”
+
+No. A hedge changes exposure. Its result depends on later market movement and the overall portfolio.
+
+### “It is suitable for every retail account.”
+
+The technique can require frequent monitoring, disciplined execution and careful modelling. Costs and operational complexity can make it unsuitable for some traders.
+
+## A Risk-Control Checklist
+
+1. Understand the portfolio's Gamma, Delta, Theta and Vega.
+2. Define when and how a hedge would be adjusted.
+3. Estimate transaction costs before trading.
+4. Stress-test trending, range-bound and gap scenarios.
+5. Set limits for position size and total loss.
+
+## Frequently Asked Questions
+
+### Is gamma scalping the same as delta hedging?
+
+No. Delta hedging describes reducing net Delta exposure. Gamma scalping refers to repeatedly adjusting a hedge as Delta changes, often to manage a long-Gamma position.
+
+### Can a short-Gamma position use the same approach?
+
+Short-Gamma positions can require adjustments too, but their exposure behaves differently and can force hedges to be adjusted in adverse directions during large moves. Risk can rise quickly.
+
+### Does gamma scalping require options to be held until expiry?
+
+No. The approach depends on active risk management, and the trader's exit plan should be defined in advance.
+
+## Disclaimer
+
+This article is educational only and does not recommend any trade. Options and hedging strategies can generate substantial losses. Confirm product rules and costs with your broker and exchange.
