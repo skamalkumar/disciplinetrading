@@ -1,0 +1,82 @@
+---
+title: "What Is a Poor Man's Covered Call? PMCC Strategy Explained"
+description: "Understand the Poor Man's Covered Call, its long-dated Call and short Call structure, potential benefits, breakeven considerations and risks."
+date: "2026-11-09"
+category: "Options Strategies"
+tags: ["poor mans covered call", "PMCC", "diagonal call spread", "options strategy", "covered call"]
+featured: false
+---
+
+## What Is a Poor Man's Covered Call?
+
+A **Poor Man's Covered Call (PMCC)** is an options strategy designed to resemble a covered call without purchasing 100 shares (or the applicable share quantity) of the underlying. It typically involves buying a longer-dated, deep-in-the-money Call and selling a nearer-dated Call at a higher strike.
+
+The long Call acts as a stock substitute, but it is not identical to owning shares. It has an expiry, carries time value and has its own Delta, Gamma and Vega exposure. The strategy is a form of Call diagonal spread.
+
+## How Is a PMCC Built?
+
+A common structure is:
+
+1. Buy a longer-dated Call, often with a relatively high Delta.
+2. Sell a nearer-dated Call at a higher strike.
+3. Manage or close the short Call before or around its expiry according to a predefined plan.
+
+The long option is sometimes called the *LEAPS* leg in markets where long-dated listed options are available. The available expiries and contract specifications differ across exchanges.
+
+## Illustrative Example
+
+Assume a stock trades at ₹1,000. A trader buys a longer-dated 800 Call for ₹240 and sells a nearer-dated 1,050 Call for ₹35.
+
+The initial net debit is ₹205 per share, excluding costs. The short Call premium reduces the cost of the long option, but it does not make the trade risk-free. If the stock falls sharply, the long Call can lose substantial value. If the stock rallies strongly above the short strike, the short Call can limit near-term upside and may require management.
+
+## Why Traders Consider a PMCC
+
+- It can require less upfront capital than buying the underlying shares.
+- The short Call may generate premium that offsets some of the long Call's time decay.
+- The position can express a moderately bullish view.
+- It can be adjusted by closing, rolling or replacing the short Call, subject to costs and risk.
+
+These are potential characteristics, not guaranteed outcomes.
+
+## Understanding Breakeven and Risk
+
+The simple entry debit is the long Call premium minus the short Call premium. But the actual breakeven at a particular date depends on the value of the long Call, the short Call's closing or settlement value, remaining time and transaction costs.
+
+Do not calculate PMCC risk as though the long Call were ordinary shares. A long Call can lose its entire premium. Also, a short Call can create a significant obligation if the underlying rises sharply. The long Call may not perfectly offset the short Call because strikes, expiries and Greeks differ.
+
+## Choosing the Long Call
+
+Traders often look for a longer-dated Call with substantial intrinsic value and a relatively high Delta. A higher Delta may make it behave more like shares for small price changes, but Delta is not fixed. The option can still be affected by time decay, volatility and a large underlying move.
+
+## Choosing the Short Call
+
+The short strike and expiry should reflect the trader's outlook and tolerance for upside being capped. A short option with very little time remaining may decay quickly, but can also have high Gamma near expiry. A short Call should not be selected only because its premium looks attractive.
+
+## PMCC vs Traditional Covered Call
+
+| Feature | PMCC | Covered call |
+|---|---|---|
+| Long exposure | Long-dated Call | Underlying shares |
+| Short leg | Nearer-dated Call | Call option |
+| Expiry on long exposure | Yes | Shares do not expire |
+| Main extra risk | Long option time/volatility risk | Share-price risk |
+
+Related reading: [What Is a Covered Call?](https://www.disciplinetrading.com/blog/what-is-covered-call-options) and [What Is a Diagonal Spread?](https://www.disciplinetrading.com/blog/what-is-diagonal-spread-options).
+
+## Frequently Asked Questions
+
+### Is a PMCC safer than a covered call?
+
+Not automatically. It uses an option instead of shares, introducing expiry and volatility risks. The total risk depends on the structure and management.
+
+### Can a PMCC lose the full debit?
+
+Yes. The long Call can expire worthless, and losses on the overall position can be substantial relative to the debit depending on how the short leg is managed and settled.
+
+### Is PMCC suitable for every stock?
+
+No. Liquidity, option availability, volatility, spreads and contract size all matter.
+
+## Disclaimer
+
+This article is educational only and is not a recommendation. Options involve substantial risk. Review contract specifications, margin, settlement and tax implications with appropriate professionals before trading.

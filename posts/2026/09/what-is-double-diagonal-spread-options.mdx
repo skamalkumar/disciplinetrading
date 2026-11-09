@@ -1,0 +1,80 @@
+---
+title: "What Is a Double Diagonal Spread? Options Structure and Risk"
+description: "Learn how a double diagonal combines Call and Put diagonals, how the position can benefit from a range-bound market, and what can go wrong."
+date: "2026-11-09"
+category: "Options Strategies"
+tags: ["double diagonal", "options strategy", "iron condor alternative", "volatility", "NIFTY options", "SENSEX options"]
+featured: false
+---
+
+## What Is a Double Diagonal Spread?
+
+A **double diagonal** is a four-leg options strategy that combines a Call diagonal and a Put diagonal around the same underlying. It normally uses nearer-dated short options and farther-dated long options, with different strikes on each side.
+
+The strategy is often considered when a trader expects the underlying to remain within a broad range over the near term, while wanting to retain longer-dated options beyond the short expiry. It is not a guaranteed income strategy and can be sensitive to volatility and large price moves.
+
+## Typical Structure
+
+A common construction is:
+
+- Buy a farther-expiry Call at a higher strike.
+- Sell a nearer-expiry Call at a lower strike.
+- Buy a farther-expiry Put at a lower strike.
+- Sell a nearer-expiry Put at a higher strike.
+
+The exact strikes and expiries vary. The nearer short strikes are often placed outside the current market price, while the longer-dated options provide protection beyond the short expiry. This structure should be evaluated as a four-leg position, not as four unrelated trades.
+
+## Illustrative Example
+
+Assume an index is trading near 25,000. A trader sells a nearer-expiry 25,500 Call and 24,500 Put, while buying a later-expiry 25,800 Call and 24,200 Put.
+
+The short options collect premium and the longer-dated options cost premium. The net entry may be a credit or debit depending on market prices. The example does not imply that these strikes are suitable or that the strategy has a fixed payoff.
+
+## How Can the Position Make Money?
+
+The nearer-dated options may lose time value more quickly than the longer-dated options. If the underlying remains in a favourable range and the short options expire with limited value, the position may benefit from the difference in decay.
+
+However, the long options also lose time value. A volatility decline can reduce the value of the longer-dated options, while a sharp directional move can cause losses on the short side before the long options provide an offset.
+
+## What Matters Most?
+
+1. **Range width:** The short strikes define the near-term zone in which the position is more comfortable.
+2. **Expiry spacing:** More time between the short and long expiries changes the exposure to time decay and volatility.
+3. **Implied volatility:** The long options may be particularly sensitive to changes in implied volatility.
+4. **Skew:** Put and Call volatility may differ, affecting the two sides unequally.
+5. **Liquidity:** Four legs can create meaningful execution costs.
+
+## Double Diagonal vs Iron Condor
+
+| Feature | Double diagonal | Iron condor |
+|---|---|---|
+| Expiries | Usually two expiries | Usually one expiry |
+| Strikes | Different across legs | Four strikes in one expiry |
+| Time exposure | Near and far-term options | Primarily one expiry cycle |
+| Complexity | More complex to value and manage | Generally simpler payoff at expiry |
+
+An iron condor is described in [What Is an Iron Condor?](https://www.disciplinetrading.com/blog/what-is-iron-condor-options) if that page is available in your library; confirm the route before publishing.
+
+## Risks and Adjustments
+
+A double diagonal has no universal maximum profit or loss that can be read from the entry credit alone. The risk changes as the near expiry approaches and after the short options expire. Before entry, model several underlying prices and volatility scenarios. Set rules for reducing, closing or adjusting the position; avoid adding legs simply to postpone recognising a loss.
+
+Pay particular attention to short options that become in-the-money, expiry-day liquidity, margin changes and the broker's handling of exercise or settlement. A long option in a later expiry does not necessarily eliminate all operational risks on a short option in an earlier expiry.
+
+## Frequently Asked Questions
+
+### Is a double diagonal market-neutral?
+
+It is often designed for a range-bound outlook, but it is not perfectly neutral. Delta, Gamma, Vega and Theta change as the underlying and time change.
+
+### Does a double diagonal benefit from falling volatility?
+
+Not always. The short options may benefit from a volatility decline, but the longer-dated options can lose value too. The net effect depends on each leg's volatility sensitivity.
+
+### Is it suitable for beginners?
+
+It is generally better studied after understanding calendar spreads, diagonal spreads, option Greeks and multi-leg risk.
+
+## Disclaimer
+
+For educational purposes only; not financial advice. Multi-leg options can generate rapid losses and involve liquidity, margin, volatility and expiry risks. Check current exchange and broker rules before trading.

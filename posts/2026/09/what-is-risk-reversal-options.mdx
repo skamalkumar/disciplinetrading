@@ -1,0 +1,77 @@
+---
+title: "What Is a Risk Reversal in Options? Bullish and Bearish Structures"
+description: "Understand bullish and bearish risk reversals, how a Call and Put are combined, why the strategy can be low-cost, and the risks of short options."
+date: "2026-11-09"
+category: "Options Strategies"
+tags: ["risk reversal", "options strategy", "long call", "short put", "short call", "long put"]
+featured: false
+---
+
+## What Is a Risk Reversal?
+
+A **risk reversal** combines a long option on one side of the market with a short option on the other side. In a common bullish structure, a trader buys a Call and sells a Put on the same underlying and expiry. A bearish risk reversal commonly involves buying a Put and selling a Call.
+
+The premium received from the short option can partly or fully finance the long option. However, the short option introduces an obligation and can create substantial losses.
+
+## Bullish Risk Reversal
+
+A typical bullish risk reversal consists of:
+
+- Buy an out-of-the-money Call.
+- Sell an out-of-the-money Put.
+- Use the same underlying and expiry, often with different strikes.
+
+The trader benefits from a sufficiently strong rise through the Call strike. If the underlying falls below the Put strike, the short Put can generate losses and may create an obligation under the contract.
+
+## Bearish Risk Reversal
+
+A typical bearish risk reversal consists of:
+
+- Buy an out-of-the-money Put.
+- Sell an out-of-the-money Call.
+
+The long Put provides downside exposure. The short Call helps finance it but creates risk if the underlying rises sharply.
+
+## Illustrative Bullish Example
+
+Assume an index is near 25,000. A trader buys a 25,300 Call for 100 points and sells a 24,700 Put for 90 points, both with the same expiry.
+
+The net premium is a debit of 10 points, before costs. The low initial debit does not mean the position has only 10 points of risk. The short Put can lose substantially if the index falls, while the long Call's maximum value is limited by the market's upside and its premium cost.
+
+If the Put premium were greater than the Call premium, the structure would open for a net credit. That credit would still not cap the risk of the short Put.
+
+## Why Is It Called a Risk Reversal?
+
+The position exchanges one part of the risk distribution for another. In a bullish version, the trader accepts downside exposure through the short Put in exchange for upside exposure through the long Call. The structure can therefore express a directional view without paying the full standalone Call premium.
+
+## Risk Reversal and Put-Call Skew
+
+The relative prices of out-of-the-money Puts and Calls are influenced by implied volatility skew, supply and demand, and market expectations. A risk reversal can therefore also be used to compare the relative pricing of upside and downside options. The trade's economics should be assessed using actual option quotes, not a fixed assumption that one side is always expensive.
+
+## Key Risks
+
+- The short option can create losses much larger than the premium received.
+- Margin requirements can increase as the underlying moves.
+- The long and short options may have different liquidity.
+- Changes in implied volatility can affect the legs differently.
+- Expiry and settlement mechanics can create operational obligations.
+
+For the pricing relationship between Calls and Puts, read [What Is Put-Call Parity?](https://www.disciplinetrading.com/blog/what-is-put-call-parity).
+
+## Frequently Asked Questions
+
+### Is a bullish risk reversal a low-cost Call?
+
+It can have a small net premium, but it is not equivalent to buying a Call. The short Put adds meaningful downside risk.
+
+### Is risk reversal the same as a synthetic long position?
+
+A specific combination of options can approximate or replicate other exposures under defined assumptions, but a standard risk reversal with out-of-the-money strikes is not automatically identical to owning the underlying. Strike, premium, expiry, dividends, rates and contract terms matter.
+
+### Can a risk reversal be used on NIFTY or SENSEX?
+
+The structure can be studied using listed index options where suitable contracts and liquidity exist. Confirm current expiry, settlement and margin rules.
+
+## Disclaimer
+
+Educational content only; not a trading recommendation. Short options can involve substantial risk. Check current exchange specifications, broker margin and settlement rules before entering a position.

@@ -1,0 +1,75 @@
+---
+title: "What Is a Seagull Options Strategy? Structure, Example and Risks"
+description: "Learn how a seagull options strategy combines three options to create a structured bullish or bearish payoff, often with reduced upfront premium."
+date: "2026-11-09"
+category: "Options Strategies"
+tags: ["seagull strategy", "options strategy", "risk reversal", "option spreads", "structured options"]
+featured: false
+---
+
+## What Is a Seagull Options Strategy?
+
+A **seagull** is a three-option structure that combines a directional long option with two options on the opposite side of the payoff. It is commonly designed to reduce the cost of buying protection or directional exposure by selling an additional option. The trade-off is that the extra short option creates a region of risk.
+
+There are several variants. The exact legs, strikes and whether the structure is entered for a debit or credit depend on the market and the intended payoff. Always define the precise construction before analysing a seagull.
+
+## A Common Bullish Seagull
+
+One commonly used bullish structure is:
+
+1. Buy a Call at a selected strike.
+2. Sell a Put at a lower strike.
+3. Sell another Call at a higher strike.
+
+The short Put can help finance the purchased Call, while the additional short Call may reduce the net cost further. In exchange, the trader accepts downside exposure below the Put strike and may cap or alter upside participation above the upper Call strike.
+
+Other markets and practitioners may use different seagull conventions, so the name alone is not enough to identify the risk. Record every leg explicitly.
+
+## Illustrative Example
+
+Assume an index is near 25,000. A trader buys a 25,000 Call, sells a 24,500 Put and sells a 25,700 Call, all with the same expiry. Suppose the premiums are 180, 120 and 45 points respectively.
+
+The net premium paid is 15 points before costs: 180 paid, less 120 and 45 received. This small debit is achieved by accepting the risks of both short options. It does not mean the maximum loss is 15 points.
+
+## Payoff Zones
+
+- **Below the short Put strike:** The short Put can create substantial downside losses as the underlying falls.
+- **Between the lower and upper strikes:** The long Call may gain value as the market rises, while the short options may expire worthless or retain value depending on the final level.
+- **Above the short upper Call strike:** The short Call can offset gains from the long Call and may cap upside beyond a point.
+
+The exact payoff depends on premiums and strike spacing. Plot the combined payoff at expiry and separately assess the position before expiry, when volatility and time value still matter.
+
+## Why Use a Seagull?
+
+A trader may use the structure to reduce the upfront cost of a directional position or to build a defined set of payoff zones. It can be used in structured hedging contexts, but the premium reduction is compensation for taking on additional obligations.
+
+## Seagull vs Risk Reversal
+
+A standard risk reversal has two option legs. A seagull adds a third option, often to further reduce cost or reshape the payoff. The additional leg changes the risk distribution and should never be treated as a free enhancement.
+
+## Risk Management Checklist
+
+- Write down the exact option type, strike, expiry and quantity for all legs.
+- Calculate maximum and scenario losses, not just net premium.
+- Check margin and stress-test a large move in both directions.
+- Review skew and liquidity at each strike.
+- Decide how the short options will be managed near expiry.
+- Include execution costs and settlement obligations.
+
+## Frequently Asked Questions
+
+### Is a seagull a zero-cost strategy?
+
+It can sometimes be structured for a small debit or credit, but that does not make it risk-free. The short options carry economic and margin risk.
+
+### Does a seagull always have limited risk?
+
+No. Depending on the construction, a short Put or short Call can create substantial or theoretically unlimited exposure. The exact legs determine the risk.
+
+### Is a seagull suitable for beginners?
+
+It is an advanced multi-leg structure. Learn vertical spreads, risk reversals and option payoff analysis first.
+
+## Disclaimer
+
+This article is for educational purposes only and is not financial advice. Multi-leg options can involve substantial losses, margin calls, liquidity constraints and expiry risks. Verify current contract and settlement rules before trading.

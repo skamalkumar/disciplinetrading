@@ -1,0 +1,77 @@
+---
+title: "What Is a Jelly Roll in Options? Synthetic Forward and Pricing Explained"
+description: "Understand the options jelly roll, how Call and Put calendar spreads are combined, and how financing, dividends and execution affect the trade."
+date: "2026-11-09"
+category: "Options Strategies"
+tags: ["jelly roll options", "options strategy", "calendar spread", "put call parity", "synthetic forward"]
+featured: false
+---
+
+## What Is a Jelly Roll in Options?
+
+A **jelly roll** is an advanced options position that combines a Call calendar spread with a Put calendar spread at the same strike. It is generally used to trade or lock in a difference in the relative pricing of options across two expiries, rather than to make a simple directional bet on the underlying.
+
+A common construction involves buying one option type in one expiry and selling the same option type in another expiry, then taking the opposite calendar position in the other option type. The exact buy/sell direction determines whether the trader is long or short the relevant calendar relationship.
+
+## How Is It Related to Put-Call Parity?
+
+Put-call parity links the prices of Calls and Puts with the same strike and expiry, subject to assumptions about rates, dividends, exercise and settlement. When two expiries are combined, the relationship can be used to understand how a jelly roll is connected to the financing component embedded in forward prices.
+
+The position is therefore often analysed as an interest-rate or forward-price relationship. It is not simply a strategy that profits because the market rises or falls.
+
+Read [What Is Put-Call Parity?](https://www.disciplinetrading.com/blog/what-is-put-call-parity) for the foundational pricing relationship.
+
+## Conceptual Construction
+
+Consider two expiries, near and far, and one common strike. A jelly roll combines:
+
+- A calendar position in Calls at that strike.
+- An offsetting calendar position in Puts at the same strike.
+
+The four legs should be entered with carefully checked directions and quantities. Because market conventions differ in how a “long” or “short” jelly roll is labelled, describe the actual four transactions rather than relying only on the strategy name.
+
+## What Influences Its Value?
+
+- The time difference between the two expiries.
+- Interest rates and the financing value embedded in forwards.
+- Expected dividends or distributions where relevant.
+- Borrowing costs and carry assumptions.
+- Bid–ask spreads, market depth and execution timing.
+- Differences in contract specifications or settlement treatment.
+
+## Why Is It an Advanced Trade?
+
+A jelly roll can appear to have a small or predictable theoretical value under simplified assumptions. In practice, the trade involves four option legs, and small pricing differences can be overwhelmed by spreads, fees or imperfect execution. Theoretical parity relationships may also need adjustments for dividends, rates, early exercise features and market frictions.
+
+## Illustrative Framework
+
+Suppose a trader compares options at the same strike across two expiries. Rather than looking at the Call calendar or Put calendar alone, the trader combines both and compares the resulting net value with the financing and carry implied by the underlying forward prices.
+
+The trader should calculate the net cash flow for every leg, align quantities and contract multipliers, and compare the position with an equivalent forward or financing exposure. Do not infer an arbitrage opportunity from a displayed mid-price: executable bid and ask prices are essential.
+
+## Risks and Practical Checks
+
+1. Confirm the exact expiry dates and strike alignment.
+2. Verify that all legs have matching underlying and contract multipliers.
+3. Use executable bid/ask prices, not theoretical mid-prices alone.
+4. Include rates, dividends, borrow costs and all transaction charges.
+5. Check exercise and settlement differences between expiries.
+6. Stress-test the position for liquidity gaps and legging risk.
+
+## Frequently Asked Questions
+
+### Is a jelly roll a directional strategy?
+
+It is generally used to express a relative pricing or financing view across expiries, rather than a straightforward bullish or bearish view.
+
+### Is a jelly roll an arbitrage?
+
+It may be used to investigate relative mispricing, but a theoretical relationship does not guarantee a risk-free executable arbitrage. Costs, liquidity and contract details matter.
+
+### Is it suitable for retail beginners?
+
+It is a specialised strategy and generally requires strong understanding of option pricing, forwards, put-call parity and execution.
+
+## Disclaimer
+
+For education only, not investment advice. Complex options positions can involve execution, liquidity, financing, exercise and settlement risks. This article does not describe a live arbitrage opportunity. Verify all contract details and costs before trading.
