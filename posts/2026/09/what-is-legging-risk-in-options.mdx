@@ -1,0 +1,83 @@
+---
+title: "What Is Legging Risk in Options Trading?"
+description: "Understand legging risk in multi-leg options strategies, why partial execution changes exposure, and how traders can manage execution risk."
+date: "2026-11-17"
+category: "Options Risk Management"
+tags: ["legging risk", "multi-leg options", "spread execution", "slippage", "options trading", "NIFTY", "SENSEX"]
+featured: false
+---
+
+## What Is Legging Risk?
+
+Legging risk is the risk that arises when the individual legs of a multi-leg options strategy are executed at different times or prices. Until all intended legs are filled, the trader may temporarily hold a position that is materially different from the planned strategy.
+
+It is particularly relevant to spreads, butterflies, condors, calendars and other structures involving multiple contracts.
+
+## A Simple Example
+
+Suppose a trader plans a two-leg Call debit spread:
+
+- Buy one 22,500 Call.
+- Sell one 22,700 Call.
+
+The trader's intention is to pay a net debit for a defined-risk bullish spread. If the long Call executes but the short Call does not, the trader temporarily holds a standalone long Call. Its premium exposure and risk are different from the intended spread. If the market moves before the second leg fills, the final spread may cost more than planned or may no longer offer an attractive payoff.
+
+The reverse sequence can be more dangerous in some strategies: if a short leg fills before its protective long leg, the trader may temporarily carry an uncovered short option.
+
+## Why Legging Risk Occurs
+
+- One strike may be less liquid than another.
+- Bid-ask spreads may widen during fast markets.
+- The underlying may move while orders are being filled.
+- A limit order may fill partially.
+- One leg may be rejected because of margin or risk controls.
+- Exchange or broker systems may experience delays or order-status uncertainty.
+
+## Simultaneous Multi-Leg Orders
+
+Where supported, a broker's spread or multi-leg order facility can help coordinate execution and reduce the time between fills. It does not guarantee a fill at the desired net price. Traders must understand whether the broker routes the legs as a combination order or manages them separately, and what happens if execution is partial.
+
+## Practical Ways to Manage Legging Risk
+
+1. Prefer liquid strikes and expiries with adequate depth.
+2. Check bid-ask spreads on every leg, not just the ATM option.
+3. Use a defined net debit or credit limit where the platform supports it.
+4. Understand partial-fill behaviour before submitting the order.
+5. Monitor each leg's order and fill status.
+6. Decide in advance what to do if only one leg executes.
+7. Avoid chasing the market with repeated price changes.
+8. Keep sufficient funds and margin for temporary exposure.
+
+## Legging Risk Near Expiry
+
+Near expiry, premiums and deltas can change rapidly as the underlying approaches strikes. Liquidity can deteriorate and small price changes can materially affect the value of short-dated options. A multi-leg order that is not fully executed can therefore create an unexpected exposure at a sensitive time.
+
+## Legging Risk Is Different From Slippage
+
+Slippage is the difference between the expected execution price and the actual fill price. Legging risk is the exposure created by incomplete or asynchronous execution of a multi-leg position. Both can occur together, but they are not the same thing.
+
+## Frequently Asked Questions
+
+### Does a spread order eliminate legging risk?
+
+It can reduce the risk of separate manual executions, but partial fills, rejections and platform-specific execution behaviour still need to be understood.
+
+### Is legging risk relevant to a butterfly?
+
+Yes. A butterfly has multiple legs, and incomplete execution can leave a position with a different risk profile from the intended structure.
+
+### Should I execute the short leg first?
+
+There is no universal rule. The safer sequence depends on the strategy, broker functionality, margin and temporary exposure. Understand the consequences of every possible partial-fill sequence.
+
+### Can legging risk cause a loss even if my market view is correct?
+
+Yes. Poor execution or temporary unintended exposure can create losses independent of whether the broader market view eventually proves correct.
+
+## Final Thoughts
+
+A multi-leg strategy is only the intended risk structure once its legs are properly established. Plan for partial fills, understand temporary exposures and treat execution as part of strategy design.
+
+## Disclaimer
+
+This article is for educational purposes only and does not constitute financial advice. Options involve substantial risk. Broker order handling and exchange procedures vary; verify the relevant details before trading.

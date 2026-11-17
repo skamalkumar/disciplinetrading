@@ -1,0 +1,96 @@
+---
+title: "What Is Expected Value in Options Trading?"
+description: "Learn how expected value combines the probability and size of wins and losses to assess an options strategy over many trades."
+date: "2026-11-17"
+category: "Options Education"
+tags: ["expected value", "options trading", "trading expectancy", "risk reward", "options strategy", "NIFTY", "SENSEX"]
+featured: false
+---
+
+## What Is Expected Value?
+
+Expected Value (EV) is the probability-weighted average outcome of a trade or strategy. It combines the size of possible gains and losses with the probability assigned to each outcome.
+
+For a simplified trade with one winning outcome and one losing outcome:
+
+\[EV = (P_w 	imes G) - (P_l 	imes L) - C\]
+
+Here, \(P_w\) is the probability of a win, \(G\) is the gain if successful, \(P_l\) is the probability of a loss, \(L\) is the loss if unsuccessful, and \(C\) represents expected costs. The probabilities should add to 1 in this two-outcome example.
+
+## Worked Example
+
+Assume a hypothetical options strategy has:
+
+- 60% probability of a ₹1,500 gain
+- 40% probability of a ₹1,800 loss
+- ₹100 estimated total trading costs per trade
+
+The expected value is:
+
+\[(0.60 	imes ₹1,500) - (0.40 	imes ₹1,800) - ₹100 = ₹80\]
+
+The simplified expected value is positive ₹80 per trade. This does not mean the next trade will earn ₹80. It is an average estimate across a sufficiently large set of comparable trades, assuming the inputs are realistic and stable.
+
+## Why Win Rate Alone Is Misleading
+
+A strategy can win frequently and still lose money if its occasional losses are much larger than its gains. Conversely, a strategy with a lower win rate can have positive expected value if its average wins sufficiently exceed its average losses.
+
+| Strategy | Win rate | Average win | Average loss | EV before costs |
+|---|---:|---:|---:|---:|
+| A | 75% | ₹400 | ₹1,500 | -₹75 |
+| B | 45% | ₹1,800 | ₹900 | ₹315 |
+
+These are illustrative figures. They show why win rate should never be evaluated in isolation.
+
+## Expected Value for Multi-Leg Options Strategies
+
+For a spread, condor or butterfly, the payoff depends on the underlying price at expiry and may also depend on volatility and the path taken if the trader exits early. A more complete analysis can model a range of terminal prices, assign probabilities to those outcomes, calculate the strategy payoff at each point and add the probability-weighted results.
+
+Remember to include:
+
+- Net premium paid or received
+- Contract multiplier and number of lots
+- Brokerage, exchange charges and taxes
+- Bid-ask spread and likely slippage
+- Adjustments, rolls and exit costs
+- Exercise, assignment and settlement-related costs where relevant
+
+## Expected Value Is Not a Guarantee
+
+A positive historical or modelled EV does not guarantee future profitability. Market regimes change, volatility relationships shift, execution can deteriorate and a small sample can produce misleading results. Rare losses may be underrepresented in a backtest.
+
+## How to Evaluate a Strategy
+
+1. Define the entry, exit and adjustment rules precisely.
+2. Use a sufficiently large and representative sample.
+3. Separate in-sample development from out-of-sample testing.
+4. Include realistic costs and execution assumptions.
+5. Review average win, average loss, win rate and drawdown together.
+6. Test performance across trending, range-bound and high-volatility periods.
+7. Monitor live results to identify changes in strategy behaviour.
+
+## Frequently Asked Questions
+
+### Is positive expected value enough to trade?
+
+No. Capital requirements, drawdown, tail risk, liquidity and personal risk limits also matter.
+
+### Can a strategy have positive EV but lose for several trades in a row?
+
+Yes. A positive average does not prevent losing streaks or large short-term drawdowns.
+
+### Should costs be included?
+
+Yes. Ignoring costs can turn a marginal strategy into a losing one.
+
+### Is expected value the same as guaranteed profit?
+
+No. It is a probability-weighted estimate, not a promise about an individual trade.
+
+## Final Thoughts
+
+Expected value helps traders move beyond win rate and focus on the relationship between probability, payoff and costs. It is most useful when based on sound data, realistic execution and disciplined risk management.
+
+## Disclaimer
+
+This article is for educational purposes only and does not constitute financial advice or a recommendation to trade. Options involve substantial risk, including the possibility of losing the entire premium or more depending on the position.

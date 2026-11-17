@@ -1,0 +1,88 @@
+---
+title: "What Is the Breakeven Price in Options Trading?"
+description: "Understand options breakeven prices for long calls, long puts and common spreads, with clear examples and expiry payoff explanations."
+date: "2026-11-17"
+category: "Options Basics"
+tags: ["options breakeven", "call option", "put option", "options payoff", "options trading", "NIFTY", "SENSEX"]
+featured: false
+---
+
+## What Is an Options Breakeven Price?
+
+The breakeven price is the underlying price at which a strategy's profit or loss is zero at a specified point in time, usually at expiry in basic payoff calculations. It accounts for the premium paid or received, not just the strike price.
+
+The breakeven formula depends on whether the position is a buyer or seller and whether it is a Call, Put or multi-leg strategy.
+
+## Long Call Breakeven
+
+For a long Call held to expiry, the breakeven is:
+
+\[	ext{Breakeven} = 	ext{Strike Price} + 	ext{Premium Paid}\]
+
+Suppose a trader buys a hypothetical NIFTY 22,500 Call for 120 points. Ignoring costs, the expiry breakeven is 22,620. Above that level, the intrinsic value exceeds the premium paid. Below it, the option buyer has an expiry loss; the maximum loss is the premium paid.
+
+## Long Put Breakeven
+
+For a long Put held to expiry:
+
+\[	ext{Breakeven} = 	ext{Strike Price} - 	ext{Premium Paid}\]
+
+If a trader buys a 22,500 Put for 100 points, the expiry breakeven is 22,400. Below that level, the intrinsic value exceeds the premium paid, before costs.
+
+## Short Options Breakeven
+
+For a standalone short Call, the expiry breakeven is strike plus premium received. For a standalone short Put, it is strike minus premium received. These formulas describe the expiry payoff and do not remove the potentially substantial risk of short options.
+
+## Breakeven in a Debit Spread
+
+Suppose a trader buys a 22,500 Call for 150 points and sells a 22,700 Call for 70 points. The net debit is 80 points. The expiry breakeven is:
+
+\[22,500 + 80 = 22,580\]
+
+The maximum loss is the net debit multiplied by the contract multiplier and number of units. The maximum profit is the spread width minus the net debit, multiplied by the same quantity.
+
+## Breakeven in Credit Spreads
+
+For a simple bull put credit spread, the lower breakeven is the short Put strike minus the net credit received. For a bear Call credit spread, the upper breakeven is the short Call strike plus the net credit received. Always calculate using the net credit after accounting for the premium paid for the protective leg.
+
+## Breakeven Is Not the Same as Profit During the Trade
+
+The expiry breakeven formula does not necessarily describe the position's mark-to-market breakeven before expiry. Before expiry, an option's price includes time value and is affected by implied volatility, time remaining, interest rates and market liquidity. A position can show a profit before expiry even when the underlying has not crossed its expiry breakeven, or show a loss after crossing a level temporarily.
+
+## Costs and Contract Multipliers
+
+The simple formulas above exclude brokerage, exchange charges, taxes and slippage. These costs shift the actual net breakeven. For index options, multiply point values by the applicable lot size and number of lots. Check current NIFTY or SENSEX contract specifications rather than relying on an old lot-size example.
+
+## Common Mistakes
+
+- Treating the strike price as the breakeven.
+- Forgetting the premium paid or received.
+- Using gross premium instead of net debit or net credit in a spread.
+- Ignoring transaction costs and the contract multiplier.
+- Confusing expiry breakeven with an intraday mark-to-market level.
+
+## Frequently Asked Questions
+
+### Can an option be profitable before reaching its expiry breakeven?
+
+Yes. Before expiry, time value and changes in implied volatility can affect the option's market price.
+
+### Is breakeven the same for every strategy?
+
+No. Each strategy has its own payoff structure and may have one or more breakeven points.
+
+### Does the breakeven include brokerage and taxes?
+
+The basic formulas do not. Add all relevant costs to calculate the practical net breakeven.
+
+### Can a spread have two breakeven points?
+
+Yes. Some multi-leg structures can have two or more breakeven points depending on their payoff shape.
+
+## Final Thoughts
+
+Breakeven is a basic but essential part of options risk analysis. Calculate it from the complete position's net premium, confirm the expiry payoff and account for costs before evaluating a trade.
+
+## Disclaimer
+
+This article is educational and is not financial advice. Options trading involves substantial risk. Verify contract details, lot sizes and settlement rules with the relevant exchange or broker.
